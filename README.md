@@ -82,6 +82,17 @@ Core proposition:
 
 Paper 6 extends the framework from retained-demand type to retained-demand location after user abstraction. It distinguishes backend retained demand from backend capability, customer utility from asset necessity, and pre-positioned inventory from just-in-time liquidity.
 
+## PDF Files
+
+The individual paper PDFs are also available in this repository:
+
+- [Paper 1: From Usage to Retained Demand](papers/Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf)
+- [Paper 2: Expansion Is Not Closure](papers/Paper_2_Expansion_Is_Not_Closure_v2_0.pdf)
+- [Paper 3: From Retained Demand to Required Liquidity Density](papers/Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf)
+- [Paper 4: Compression, Bypass, and Amplification](papers/Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf)
+- [Paper 5: Evidence Before Sizing](papers/Paper_5_Evidence_Before_Sizing_v2_0.pdf)
+- [Paper 6: After User Abstraction](papers/Paper_6_After_User_Abstraction_v5_0.pdf)
+
 ## Recommended Reading Order
 
 Canonical order:
@@ -131,6 +142,10 @@ Evaluate the series for:
 Complete archive:
 
 https://doi.org/10.17605/OSF.IO/VQDUJ
+
+GitHub repository:
+
+https://github.com/s99lab/retained-demand-audit-series
 
 Author:
 
