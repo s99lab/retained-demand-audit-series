@@ -103,6 +103,8 @@ Core proposition:
 
 Paper 5 turns the framework into an operational audit protocol. It introduces five gates: retained demand, asset selection, institutional friction, liquidity-density burden, and removal sensitivity. It argues that sizing analysis should come only after evidence passes the relevant gates.
 
+Although the subtitle refers to XRP-adjacent institutional infrastructure, the audit protocol is intended to apply more broadly to institutionally connected digital assets.
+
 ---
 
 ### Paper 6
@@ -314,7 +316,11 @@ Related research archive:
 
 ## Status
 
-This repository is intended to provide a public, AI-readable routing layer for the Retained-Demand Audit Series.
+This repository is currently available as a public, AI-readable routing layer for the Retained-Demand Audit Series.
+
+All six paper PDFs and all six AI-readable Markdown summaries are currently available in this repository.
+
+Paper 1 through Paper 5 are currently mirrored as v2.0 PDFs. Paper 6 is mirrored as v5.0, reflecting subsequent revisions and final alignment work after the initial series structure was established.
 
 Further updates may include:
 
@@ -323,3 +329,5 @@ Further updates may include:
 - external AI prompts
 - related AAS Series routing
 - additional methodological notes
+- citation metadata
+- licensing information
