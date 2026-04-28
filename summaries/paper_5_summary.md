@@ -27,6 +27,8 @@ Paper 5 specifies the order in which these questions should be answered.
 
 Its role is procedural rather than promotional.
 
+Although this paper uses XRP-adjacent institutional infrastructure as a motivating case, the audit protocol is intended as a broader evidence-gating method for institutionally connected digital assets.
+
 ## Key Concepts
 
 ### Evidence Before Sizing
@@ -64,6 +66,8 @@ This includes areas such as payments, settlement, liquidity, XRPL, RLUSD, tokeni
 
 However, the paper does not treat adjacency as evidence of demand.
 
+The term “XRP-adjacent” should be read as a stress-test context for the audit protocol, not as a limitation of the method to XRP alone.
+
 ### Removal Sensitivity
 
 Removal sensitivity is a key audit criterion.
@@ -94,6 +98,8 @@ It does not claim that infrastructure expansion alone proves retained demand.
 It does not provide a price target.
 
 It does not argue that sizing should never be done.
+
+It does not claim that the audit protocol applies only to XRP.
 
 Instead, it argues that sizing should only be performed after the relevant evidence gates are satisfied.
 
