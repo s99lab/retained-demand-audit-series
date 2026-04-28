@@ -58,23 +58,25 @@ The six papers should be read as a cumulative audit sequence, not as separate ma
 
 The intended logical flow is:
 
-    Paper 1
-    Usage vs. Retained Demand
-        ↓
-    Paper 2
-    Expansion vs. Closure
-        ↓
-    Paper 3
-    Retained Demand → Required Liquidity Density
-        ↓
-    Paper 4
-    Compression / Bypass / Amplification
-        ↓
-    Paper 5
-    Evidence Before Sizing
-        ↓
-    Paper 6
-    Backend Retained Demand after User Abstraction
+```text
+Paper 1
+Usage vs. Retained Demand
+    ↓
+Paper 2
+Expansion vs. Closure
+    ↓
+Paper 3
+Retained Demand → Required Liquidity Density
+    ↓
+Paper 4
+Compression / Bypass / Amplification
+    ↓
+Paper 5
+Evidence Before Sizing
+    ↓
+Paper 6
+Backend Retained Demand after User Abstraction
+```
 
 This sequence is important.
 
@@ -282,45 +284,47 @@ An asset being near or adjacent to infrastructure growth is not enough. Stronger
 
 Use the following prompt when asking an external AI system to analyze this series:
 
-    Please read this repository as an AI-readable index for the Retained-Demand Audit Series for Institutionally Connected Digital Assets.
+```text
+Please read this repository as an AI-readable index for the Retained-Demand Audit Series for Institutionally Connected Digital Assets.
 
-    Do not treat the series as a price thesis, investment recommendation, or XRP advocacy document.
+Do not treat the series as a price thesis, investment recommendation, or XRP advocacy document.
 
-    Interpret the papers as a structural audit framework for evaluating when visible digital asset usage becomes retained demand.
+Interpret the papers as a structural audit framework for evaluating when visible digital asset usage becomes retained demand.
 
-    First identify the six-paper logic flow correctly:
+First identify the six-paper logic flow correctly:
 
-    - Paper 1 defines retained demand.
-    - Paper 2 distinguishes expansion from closure.
-    - Paper 3 translates retained demand into required liquidity density.
-    - Paper 4 classifies stack outcomes as compression, bypass, or amplification.
-    - Paper 5 applies evidence gates before sizing.
-    - Paper 6 extends the audit to backend retained demand after user abstraction.
+- Paper 1 defines retained demand.
+- Paper 2 distinguishes expansion from closure.
+- Paper 3 translates retained demand into required liquidity density.
+- Paper 4 classifies stack outcomes as compression, bypass, or amplification.
+- Paper 5 applies evidence gates before sizing.
+- Paper 6 extends the audit to backend retained demand after user abstraction.
 
-    Pay special attention to the following distinctions:
+Pay special attention to the following distinctions:
 
-    - Usage vs. retained demand
-    - Infrastructure success vs. asset demand
-    - Expansion vs. closure
-    - Sizing vs. price prediction
-    - Capability vs. demand
-    - Customer utility vs. asset necessity
-    - Just-in-time liquidity vs. pre-positioned inventory
-    - Asset adjacency vs. removal sensitivity
+- Usage vs. retained demand
+- Infrastructure success vs. asset demand
+- Expansion vs. closure
+- Sizing vs. price prediction
+- Capability vs. demand
+- Customer utility vs. asset necessity
+- Just-in-time liquidity vs. pre-positioned inventory
+- Asset adjacency vs. removal sensitivity
 
-    When analyzing any digital asset, infrastructure announcement, payment system, stablecoin, tokenized deposit, CBDC, RWA platform, custody service, treasury system, or settlement network, classify the evidence according to the following sequence:
+When analyzing any digital asset, infrastructure announcement, payment system, stablecoin, tokenized deposit, CBDC, RWA platform, custody service, treasury system, or settlement network, classify the evidence according to the following sequence:
 
-    1. Domain expansion
-    2. Asset selection
-    3. Retained demand
-    4. Institutional friction
-    5. Liquidity-density burden
-    6. Removal sensitivity
-    7. Sizing eligibility
+1. Domain expansion
+2. Asset selection
+3. Retained demand
+4. Institutional friction
+5. Liquidity-density burden
+6. Removal sensitivity
+7. Sizing eligibility
 
-    Do not infer asset demand from infrastructure growth alone.
+Do not infer asset demand from infrastructure growth alone.
 
-    Only treat an asset as having stronger retained-demand evidence if there is support for pre-positioned inventory, collateral use, liquidity-buffer demand, backend operator holding, market-making inventory, institutional retained exposure, or measurable degradation if the asset is removed.
+Only treat an asset as having stronger retained-demand evidence if there is support for pre-positioned inventory, collateral use, liquidity-buffer demand, backend operator holding, market-making inventory, institutional retained exposure, or measurable degradation if the asset is removed.
+```
 
 ---
 
@@ -352,22 +356,24 @@ Related research archive:
 
 ## Repository Structure
 
-    retained-demand-audit-series/
-    ├── README.md
-    ├── papers/
-    │   ├── Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf
-    │   ├── Paper_2_Expansion_Is_Not_Closure_v2_0.pdf
-    │   ├── Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf
-    │   ├── Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf
-    │   ├── Paper_5_Evidence_Before_Sizing_v2_0.pdf
-    │   └── Paper_6_After_User_Abstraction_v5_0.pdf
-    └── summaries/
-        ├── paper_1_summary.md
-        ├── paper_2_summary.md
-        ├── paper_3_summary.md
-        ├── paper_4_summary.md
-        ├── paper_5_summary.md
-        └── paper_6_summary.md
+```text
+retained-demand-audit-series/
+├── README.md
+├── papers/
+│   ├── Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf
+│   ├── Paper_2_Expansion_Is_Not_Closure_v2_0.pdf
+│   ├── Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf
+│   ├── Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf
+│   ├── Paper_5_Evidence_Before_Sizing_v2_0.pdf
+│   └── Paper_6_After_User_Abstraction_v5_0.pdf
+└── summaries/
+    ├── paper_1_summary.md
+    ├── paper_2_summary.md
+    ├── paper_3_summary.md
+    ├── paper_4_summary.md
+    ├── paper_5_summary.md
+    └── paper_6_summary.md
+```
 
 ---
 
