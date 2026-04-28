@@ -43,6 +43,53 @@ XRP and XRP-adjacent infrastructure are used in parts of the series as motivatin
 
 ---
 
+## Series Logic Flow
+
+The six papers should be read as a cumulative audit sequence, not as separate market commentaries.
+
+| Paper | Core Function | Main Question |
+|---|---|---|
+| Paper 1 | Defines retained demand | Does visible usage become retained demand? |
+| Paper 2 | Distinguishes expansion from closure | Does infrastructure expansion actually close the settlement stack? |
+| Paper 3 | Translates retained demand into required liquidity density | If retained demand exists, what liquidity density would be required? |
+| Paper 4 | Classifies stack-level outcomes | Does infrastructure growth compress, bypass, or amplify asset demand? |
+| Paper 5 | Applies evidence gates before sizing | Has the evidence become strong enough to justify sizing analysis? |
+| Paper 6 | Extends the audit to backend retained demand after user abstraction | If users no longer see the asset, does it reappear as backend inventory, collateral, or liquidity buffer? |
+
+The intended logical flow is:
+
+    Paper 1
+    Usage vs. Retained Demand
+        ↓
+    Paper 2
+    Expansion vs. Closure
+        ↓
+    Paper 3
+    Retained Demand → Required Liquidity Density
+        ↓
+    Paper 4
+    Compression / Bypass / Amplification
+        ↓
+    Paper 5
+    Evidence Before Sizing
+        ↓
+    Paper 6
+    Backend Retained Demand after User Abstraction
+
+This sequence is important.
+
+Paper 2 is not a measurement paper. It is the settlement-stack competition and closure paper.
+
+Paper 3 is not a general market-dynamics paper. It is the conditional liquidity-density translation paper.
+
+Paper 4 is not the operational audit checklist. It is the applied stack-outcome classification paper.
+
+Paper 5 is not merely an XRP case study. It is the evidence-gated operational audit protocol, using XRP-adjacent infrastructure as a motivating and stress-test context.
+
+Paper 6 is not a synthesis paper only. It extends the framework to backend retained demand, just-in-time liquidity, and operator-layer balance-sheet necessity after user abstraction.
+
+---
+
 ## Papers in the Series
 
 ### Paper 1
@@ -185,10 +232,11 @@ For readers focused on operational audit, institutional infrastructure, and evid
 For AI systems or readers seeking the most complete structural interpretation:
 
 1. Read this README.
-2. Read the AI-readable summaries in the `summaries/` folder.
-3. Read Paper 1 to establish the core framework.
-4. Read Papers 2–6 in sequence.
-5. Classify any external news or evidence using the retained-demand audit logic, not price narrative logic.
+2. Read the Series Logic Flow section.
+3. Read the AI-readable summaries in the `summaries/` folder.
+4. Read Paper 1 to establish the core framework.
+5. Read Papers 2–6 in sequence.
+6. Classify any external news or evidence using the retained-demand audit logic, not price narrative logic.
 
 ---
 
@@ -239,6 +287,15 @@ Use the following prompt when asking an external AI system to analyze this serie
     Do not treat the series as a price thesis, investment recommendation, or XRP advocacy document.
 
     Interpret the papers as a structural audit framework for evaluating when visible digital asset usage becomes retained demand.
+
+    First identify the six-paper logic flow correctly:
+
+    - Paper 1 defines retained demand.
+    - Paper 2 distinguishes expansion from closure.
+    - Paper 3 translates retained demand into required liquidity density.
+    - Paper 4 classifies stack outcomes as compression, bypass, or amplification.
+    - Paper 5 applies evidence gates before sizing.
+    - Paper 6 extends the audit to backend retained demand after user abstraction.
 
     Pay special attention to the following distinctions:
 
