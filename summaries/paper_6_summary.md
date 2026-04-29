@@ -4,142 +4,179 @@
 
 **After User Abstraction: Backend Retained Demand and Just-in-Time Liquidity in Institutionally Connected Digital Assets**
 
+---
+
 ## Core Proposition
 
-**Use without inventory is weak retained demand.**
+> Use without inventory is weak retained demand.
 
-This paper extends the retained-demand framework into the post-user-abstraction environment.
+Paper 6 extends the retained-demand framework by asking where retained demand is located after user-facing token exposure is abstracted away.
 
-As digital asset infrastructure becomes more usable, end users may no longer directly hold, see, or manage the assets that support backend settlement, liquidity, routing, collateral, or treasury functions.
+The central question is no longer only:
 
-The paper therefore asks where retained demand appears after the asset disappears from the user interface.
+> What form of retained demand exists?
+
+but also:
+
+> Whose balance sheet or operational system must carry that demand?
+
+User abstraction may hide the asset from the user interface. But this does not prove that the asset has become irrelevant. It also does not prove that backend operators must hold it.
+
+The decisive question is whether some infrastructure-layer actor must pre-position, reserve, collateralize, inventory, or buffer the asset for the workflow to function.
+
+---
 
 ## Role in the Series
 
-Paper 6 is the backend retained-demand paper of the series.
+Paper 6 is the backend-location layer of the Retained-Demand Audit Series.
 
-It extends Paper 1’s retained-demand framework by shifting the question from end-user usage to operator-layer balance sheets.
+It should not be read merely as a synthesis paper.
 
-Instead of asking whether users hold the asset, it asks whether infrastructure operators must retain, pre-position, collateralize, or buffer the asset in order to deliver the service.
+The earlier papers establish the audit sequence:
 
-## Key Concepts
+- Paper 1 defines retained demand by type.
+- Paper 2 distinguishes expansion from closure.
+- Paper 3 translates retained demand into required liquidity density.
+- Paper 4 classifies stack outcomes as compression, bypass, or amplification.
+- Paper 5 applies evidence gates before sizing.
 
-### User Abstraction
+Paper 6 adds the next question:
 
-User abstraction means that the end user may no longer directly interact with the asset.
+> If users no longer hold or see the asset, who holds it instead?
 
-A user may receive a smooth payment, custody, treasury, trading, or settlement experience without knowing which asset, ledger, or liquidity mechanism is used in the background.
+---
 
-This makes end-user holding a weaker signal of asset demand.
+## Key Distinction
 
-### Backend Retained Demand
+Paper 6 distinguishes backend retained demand from backend capability.
 
-Backend retained demand refers to retained demand that appears on the balance sheets or operating books of infrastructure actors.
+Backend capability means an operator can support, route, custody, process, or display an asset.
 
-Possible holders include:
+Backend retained demand means an operator must hold the asset because not doing so would introduce cost, delay, fragility, market impact, settlement risk, collateral failure, or operational unreliability.
 
-- wallets
-- exchanges
-- custodians
-- payment providers
-- market makers
-- liquidity providers
-- clearing operators
-- treasury operators
-- prime brokers
-- settlement infrastructure providers
+In short:
 
-The key question is whether these operators need to hold or reserve the asset in advance.
+> Capability is not retained demand.
 
-### Backend Capability vs. Retained Demand
+---
 
-The paper distinguishes backend capability from retained demand.
+## Pre-Positioned Inventory vs. Just-in-Time Liquidity
 
-An operator may be technically able to support, route, display, custody, or transact with an asset without needing to retain it as inventory, collateral, or liquidity buffer.
+The central audit distinction is between pre-positioned inventory and just-in-time liquidity.
 
-Capability alone is not demand.
+**Pre-positioned inventory** means the asset is held before use.
 
-### Customer Utility vs. Asset Necessity
+It may support:
 
-The paper also distinguishes customer utility from asset necessity.
+- execution
+- settlement
+- collateral
+- liquidity provision
+- market-making
+- routing
+- fee sponsorship
+- operational resilience
 
-A service may create real value for customers through faster settlement, better treasury visibility, automation, cost reduction, or improved routing.
+**Just-in-time liquidity** means the asset can be acquired only when needed, used briefly, and released without meaningful prior inventory.
 
-However, customer value does not prove that any specific asset is necessary unless removing that asset worsens cost, liquidity, reliability, reach, collateral efficiency, or customer outcomes.
+If just-in-time procurement is sufficient, backend retained demand remains weak.
 
-### Just-in-Time Liquidity
+---
 
-Just-in-time liquidity is a major falsification condition.
+## Operational Break-Even Logic
 
-If an operator can acquire the asset only when needed, use it briefly, and release it without maintaining meaningful inventory, then retained demand is weak.
+Backend retained demand becomes more likely when the expected cost and risk of just-in-time procurement exceed the cost and friction of maintaining pre-positioned inventory.
 
-Pre-positioned inventory matters only when just-in-time procurement is more costly, risky, unreliable, or operationally difficult than holding the asset in advance.
+In simplified form:
 
-## What This Paper Does
+    JIT procurement cost
+    + JIT failure risk
+    >
+    inventory holding cost
+    + inventory friction
 
-This paper provides a framework for auditing retained demand after user abstraction.
+Operators are more likely to hold inventory when just-in-time procurement is too slow, costly, risky, unreliable, or institutionally impractical.
 
-It helps identify whether asset demand has moved from the user layer to the infrastructure layer, or whether usage has become too transient to create meaningful retained demand.
+Operators are more likely to avoid inventory when just-in-time procurement is reliable and cheaper than holding the asset in advance.
 
-It also introduces a stricter interpretation of backend demand by requiring evidence of pre-positioned inventory, collateral demand, liquidity-buffer demand, or removal-sensitive operator dependence.
+---
+
+## Cross-Asset Scope
+
+Paper 6 applies the framework across asset categories, including:
+
+- BTC
+- ETH / SOL
+- LINK
+- stablecoins
+- tokenized deposits
+- XRP
+- XDC / RWA-specific assets
+- other L1 / L2 gas assets
+
+The paper does not rank assets.
+
+It asks the same question across all of them:
+
+> Which workflows require which actors to hold which assets?
+
+---
+
+## XRP Interpretation Boundary
+
+XRP appears as one cross-asset case, not as the guaranteed beneficiary of user abstraction.
+
+Potential XRP backend retained-demand channels include:
+
+- market-making inventory
+- bridge liquidity
+- cross-ledger settlement
+- waiting liquidity
+- liquidity buffers
+- possible collateral or margin use
+
+The XRP retained-demand claim strengthens only if specific backend actors must hold XRP because just-in-time procurement, stablecoin routing, fiat rails, internal ledgers, or other substitutes are insufficient.
+
+---
 
 ## What This Paper Does Not Claim
 
-This paper does not claim that backend retained demand already exists for any specific asset.
+Paper 6 does not claim that user abstraction automatically strengthens digital asset demand.
 
-It does not claim that user abstraction is automatically bullish or bearish.
+It does not claim that user abstraction automatically weakens digital asset demand.
 
-It does not claim that technical support, customer utility, or infrastructure integration alone proves asset necessity.
+It does not claim that backend retained demand exists whenever users no longer see the asset.
 
-It also does not reject the possibility of backend retained demand.
+It does not claim that XRP is uniquely positioned or guaranteed to benefit.
 
-Instead, it asks for evidence that backend operators must retain the asset rather than merely touch it temporarily.
+It does not provide a price forecast.
 
-## How to Read It
+It does not provide an investment recommendation.
 
-Read Paper 6 as the series’ post-abstraction extension.
+---
 
-Its central question is:
+## Practical Use
 
-**After the asset disappears from the user interface, does it reappear as retained inventory, collateral, liquidity buffer, or operational necessity on the backend?**
+Use Paper 6 when evaluating workflows where users no longer directly hold, see, or manage the underlying asset.
 
-If the answer is no, then usage may exist without strong retained demand.
+The correct question is not:
 
-## Falsification / Audit Relevance
+> Do users hold the asset?
 
-A backend retained-demand thesis weakens if:
+The correct question is:
 
-- users benefit from the service but the asset is not retained by operators
-- operators can rely on just-in-time procurement
-- the asset is only touched temporarily
-- internal netting or outsourced liquidity removes inventory need
-- customer utility remains strong even if the asset is removed
-- technical support does not create balance-sheet demand
-- the asset is replaceable by stablecoins, fiat rails, tokenized deposits, internal ledgers, or other liquidity sources
+> If users do not hold it, who must hold it instead?
 
-A backend retained-demand thesis strengthens if:
+And then:
 
-- operators pre-position the asset
-- market makers hold inventory for the workflow
-- custodians or prime brokers support institutional retained exposure
-- the asset is used as collateral or liquidity buffer
-- just-in-time procurement is unreliable or inefficient
-- removal of the asset worsens operator cost, failure risk, liquidity access, or settlement performance
+> Could that actor rely on just-in-time liquidity instead of pre-positioned inventory?
 
-## Relationship to Other Papers
+If yes, retained demand is weak.
 
-Paper 1 defines retained demand.
+If no, backend retained demand may become meaningful.
 
-Paper 2 distinguishes expansion from closure.
+---
 
-Paper 3 translates retained demand into required liquidity density.
-
-Paper 4 applies the framework through compression, bypass, and amplification.
-
-Paper 5 turns the framework into an evidence-gated operational protocol.
-
-Paper 6 extends the framework to the backend operator layer after user abstraction.
-
-## Link to Full PDF
+## Full PDF
 
 [Read the full PDF](../papers/Paper_6_After_User_Abstraction_v5_0.pdf)
