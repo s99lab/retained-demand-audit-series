@@ -89,11 +89,13 @@ Backend retained demand becomes more likely when the expected cost and risk of j
 
 In simplified form:
 
-    JIT procurement cost
-    + JIT failure risk
-    >
-    inventory holding cost
-    + inventory friction
+```text
+JIT procurement cost
++ JIT failure risk
+>
+inventory holding cost
++ inventory friction
+```
 
 Operators are more likely to hold inventory when just-in-time procurement is too slow, costly, risky, unreliable, or institutionally impractical.
 

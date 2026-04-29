@@ -4,107 +4,21 @@
 
 **Compression, Bypass, and Amplification: An Applied Stack-Audit Framework for Institutionally Connected Digital Assets**
 
+---
+
 ## Core Proposition
 
-**Infrastructure growth may compress, bypass, or amplify asset demand.**
+> Infrastructure growth may compress, bypass, or amplify asset demand.
 
-This paper applies the retained-demand framework to real settlement-stack outcomes.
+Paper 4 applies the retained-demand and liquidity-density framework to institutional stack outcomes.
 
-It argues that infrastructure growth does not have a single automatic effect on digital asset demand. Depending on system design, institutional routing, liquidity structure, and operational incentives, infrastructure expansion may reduce, avoid, or increase the retained-demand burden for a given asset.
+It asks what a specific institutional stack does to asset-specific retained demand and liquidity-density burden.
+
+---
 
 ## Role in the Series
 
-Paper 4 is the applied stack-audit paper of the series.
-
-Paper 1 defines retained demand.
-
-Paper 2 distinguishes expansion from closure.
-
-Paper 3 introduces required liquidity density.
-
-Paper 4 asks how these concepts behave when applied to actual infrastructure stacks.
-
-Its role is to prevent a simple assumption that “more infrastructure equals more asset demand.”
-
-## Key Concepts
-
-### Compression
-
-Compression occurs when improved infrastructure reduces the need for retained asset inventory, liquidity buffers, or waiting liquidity.
-
-Examples may include netting, internal treasury optimization, settlement synchronization, omnibus structures, or more efficient routing.
-
-Compression can make a system more successful while reducing the retained-demand burden for a specific asset.
-
-### Bypass
-
-Bypass occurs when institutional flows avoid the asset altogether.
-
-This may happen through stablecoins, tokenized deposits, CBDCs, internal ledgers, treasury rails, commercial bank money, or other settlement mechanisms.
-
-Bypass is a major falsification path for asset-demand claims.
-
-### Amplification
-
-Amplification occurs when infrastructure growth increases the need for an asset to be retained, pre-positioned, collateralized, or used as a liquidity buffer.
-
-Amplification is possible, but it must be demonstrated rather than assumed.
-
-It requires evidence that the asset is not merely adjacent to infrastructure growth, but structurally useful or necessary within the operating stack.
-
-### Stack-Audit Logic
-
-A stack audit evaluates how settlement, liquidity, custody, compliance, treasury, and market-making layers interact.
-
-The question is not whether an asset appears somewhere in the ecosystem.
-
-The question is whether the system design creates durable retained demand for that asset.
-
-## What This Paper Does
-
-This paper provides an applied framework for classifying infrastructure outcomes.
-
-It helps readers distinguish between three possible effects:
-
-1. infrastructure growth compresses retained demand
-2. infrastructure growth bypasses the asset
-3. infrastructure growth amplifies retained demand
-
-This classification prevents both over-optimistic and over-pessimistic readings of infrastructure news.
-
-## What This Paper Does Not Claim
-
-This paper does not claim that infrastructure growth automatically benefits any specific asset.
-
-It also does not claim that infrastructure growth automatically eliminates external connective assets.
-
-It does not make a price prediction, investment recommendation, or promotional claim.
-
-Instead, it provides a method for auditing how infrastructure growth translates, or fails to translate, into retained asset demand.
-
-## How to Read It
-
-Read Paper 4 as the applied bridge between the conceptual framework and operational evidence testing.
-
-Its central question is:
-
-**When institutional infrastructure expands, does it compress, bypass, or amplify retained demand for the asset?**
-
-## Falsification / Audit Relevance
-
-An asset-demand thesis weakens if infrastructure growth results in:
-
-- reduced need for pre-positioned inventory
-- greater internal netting efficiency
-- routing through stablecoins or tokenized deposits
-- use of internal ledgers or omnibus structures
-- institutional workflows that do not require the asset
-- asset adjacency without retained balance-sheet demand
-- removal of the asset without measurable degradation
-
-An asset-demand thesis strengthens only if infrastructure growth creates evidence of retained demand, operational necessity, or removal-sensitive dependence.
-
-## Relationship to Other Papers
+Paper 4 is the applied stack-outcome layer of the Retained-Demand Audit Series.
 
 Paper 1 defines retained demand.
 
@@ -112,12 +26,120 @@ Paper 2 distinguishes expansion from closure.
 
 Paper 3 translates retained demand into required liquidity density.
 
-Paper 4 applies the framework to compression, bypass, and amplification.
+Paper 4 asks:
 
-Paper 5 turns the framework into an operational audit protocol.
+> Does the institutional stack compress, bypass, or amplify the asset-specific retained-demand burden?
 
-Paper 6 extends the framework to backend retained demand after user abstraction.
+---
 
-## Link to Full PDF
+## Three Stack Outcomes
+
+### Compression
+
+Compression occurs when institutional efficiency reduces the need for asset-specific retained liquidity.
+
+Examples include:
+
+- netting
+- internalized settlement
+- treasury optimization
+- custody aggregation
+- collateral efficiency
+- stablecoin or tokenized-deposit substitution
+- liquidity-saving mechanisms
+
+Compression may reflect infrastructure success while weakening asset-specific retained demand.
+
+### Bypass
+
+Bypass occurs when the institutional stack expands while the asset remains non-selected, weakly retained, optional, or replaceable.
+
+The stack may succeed, but the asset may not become necessary.
+
+Bypass is the applied form of:
+
+> infrastructure success without asset-specific retained demand.
+
+### Amplification
+
+Amplification occurs when stack design and actual usage increase the need to hold, mobilize, post, buffer, or maintain inventory in the asset itself.
+
+Amplification requires more than visibility, technical support, or ecosystem growth.
+
+It requires evidence of asset-specific retained demand.
+
+---
+
+## Removal Test
+
+Paper 4 emphasizes removal sensitivity.
+
+The strongest evidence is not that an asset is present.
+
+The strongest evidence appears when removing the asset would materially worsen:
+
+- settlement efficiency
+- liquidity access
+- collateral mobility
+- timing
+- cost
+- capital efficiency
+- slippage
+- stress-time execution
+- operational resilience
+
+If removing the asset does not materially worsen the system, ecosystem growth has not established strong retained-demand significance.
+
+---
+
+## What This Paper Does
+
+Paper 4 provides an applied audit structure for classifying institutional stack outcomes.
+
+It helps prevent analysts from assuming that infrastructure growth automatically creates asset demand.
+
+It also prevents premature dismissal where residual connective roles may remain.
+
+---
+
+## What This Paper Does Not Claim
+
+Paper 4 does not claim that Ripple or XRP-adjacent infrastructure automatically creates XRP retained demand.
+
+It does not provide a price forecast.
+
+It does not provide an investment recommendation.
+
+It does not assume that amplification has occurred.
+
+---
+
+## XRP-Adjacent Stress Environment
+
+Ripple- and XRP-adjacent institutional infrastructure is treated as a stress environment.
+
+The framework asks whether Ripple Payments, RLUSD, XRPL activity, custody, treasury tooling, tokenization, collateral infrastructure, or prime-brokerage functions compress, bypass, or amplify XRP-specific retained demand.
+
+No layer is treated as XRP demand by default.
+
+---
+
+## Relationship to Other Papers
+
+Paper 1 defines retained demand.
+
+Paper 2 examines closure competition.
+
+Paper 3 translates retained demand into required liquidity density.
+
+Paper 4 classifies institutional stack outcomes as compression, bypass, or amplification.
+
+Paper 5 turns the framework into an evidence-gated operational protocol.
+
+Paper 6 extends the audit to backend retained demand after user abstraction.
+
+---
+
+## Full PDF
 
 [Read the full PDF](../papers/Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf)

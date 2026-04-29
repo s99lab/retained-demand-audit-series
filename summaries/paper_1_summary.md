@@ -4,108 +4,123 @@
 
 **From Usage to Retained Demand: A Structural Audit Framework for Institutionally Connected Digital Assets**
 
+---
+
 ## Core Proposition
 
-**Usage is not retained demand.**
+> Usage is not retained demand.
 
-This paper introduces a structural audit framework for evaluating institutionally connected digital assets. Its central claim is that visible usage, transaction activity, infrastructure expansion, or ecosystem growth should not be treated as sufficient evidence of durable asset demand.
+Paper 1 establishes the foundational distinction between visible usage and retained demand.
 
-Instead, the paper asks whether an asset must be retained, pre-positioned, collateralized, or buffered within an institutional system.
+It argues that transaction flow, network activity, ecosystem expansion, or infrastructure visibility should not be treated as sufficient evidence of durable asset demand.
+
+The stronger question is whether institutional environments create reasons to retain a digital asset in held form.
+
+---
 
 ## Role in the Series
 
-Paper 1 is the foundation paper of the Retained-Demand Audit Series.
+Paper 1 is the foundation layer of the Retained-Demand Audit Series.
 
-It establishes the core distinction between:
+It defines the core audit category used throughout the series:
 
-- visible usage
-- retained demand
-- infrastructure expansion
-- actual asset necessity
+> retained demand.
 
-It provides the conceptual base for Papers 2–6.
+Later papers extend this foundation into settlement-stack closure, required liquidity density, compression / bypass / amplification, evidence-gated sizing, and backend retained demand after user abstraction.
+
+---
 
 ## Key Concepts
 
 ### Usage vs. Retained Demand
 
-Usage refers to observable activity involving an asset or network.
+Visible use of an asset does not necessarily imply that the asset must be held.
 
-Retained demand refers to the need to hold or reserve the asset in advance because removing it would impair settlement, liquidity, collateral, or operational reliability.
+An asset may appear in transaction flow while remaining temporary, replaceable, or balance-sheet light.
 
-### Components of Retained Demand
+Retained demand refers to cases where the asset must be held, reserved, posted, buffered, or maintained for operational reasons.
 
-The paper decomposes retained demand into several possible forms:
+### Four Forms of Retained Demand
 
-- inventory demand
-- collateral demand
-- liquidity-buffer demand
-- waiting liquidity
+Paper 1 decomposes retained demand into four forms:
 
-### Infrastructure Success Does Not Equal Asset Demand
+1. **Inventory demand**  
+   The asset is held as operating inventory, market-making inventory, settlement inventory, or routing inventory.
 
-The paper emphasizes that an infrastructure provider, network, or ecosystem may succeed without necessarily creating durable demand for a specific asset.
+2. **Collateral demand**  
+   The asset is posted, pledged, reserved, or recognized as collateral or margin.
 
-This distinction is especially important for institutionally connected digital assets, where asset exposure may be abstracted away from end users or replaced by alternative settlement mechanisms.
+3. **Liquidity-buffer demand**  
+   The asset is held to absorb mismatch, stress, volatility, or execution uncertainty.
 
-### Domain Expansion, Asset Selection, and Asset Indispensability
+4. **Waiting liquidity**  
+   The asset is held across temporal gaps while settlement, conversion, transfer, or conditional workflows remain incomplete.
 
-The paper separates three stages:
+### Expansion, Selection, and Indispensability
 
-1. **Domain expansion** — new use cases, markets, or workflows become accessible.
-2. **Asset selection** — the asset is actually chosen within those workflows.
-3. **Asset indispensability** — removing the asset would materially degrade cost, liquidity, reliability, or settlement performance.
+Paper 1 separates three stages that are often conflated:
+
+- **Domain expansion**: the relevant institutional domain grows.
+- **Asset selection**: the asset is actually chosen within that domain.
+- **Indispensability**: removing the asset materially worsens the workflow.
+
+Domain expansion is not selection.
+
+Selection is not indispensability.
+
+---
 
 ## What This Paper Does
 
-This paper provides a method for auditing whether a digital asset has retained-demand characteristics.
+Paper 1 provides a structural audit framework for evaluating when institutionally connected digital assets generate retained demand.
 
-It helps readers avoid overinterpreting activity, adoption, partnerships, or infrastructure growth as proof of durable asset demand.
+It is designed to slow premature inference from visible usage or infrastructure growth to asset-specific demand.
 
-It also introduces explicit falsification lines, including bypass risk, efficiency compression, and the possibility that infrastructure can grow while asset demand remains weak.
+---
 
 ## What This Paper Does Not Claim
 
-This paper does not claim that any specific asset must appreciate in price.
+Paper 1 does not claim that XRP, or any other asset, has already achieved retained demand.
 
-It is not a price thesis, investment recommendation, or asset-promotion document.
+It does not provide a price forecast.
 
-XRP is used as a motivating or stress-test case, but the framework is intended to apply more broadly to institutionally connected digital assets.
+It does not provide an investment recommendation.
 
-## How to Read It
+It does not claim that infrastructure success automatically creates asset demand.
 
-Read Paper 1 as the conceptual foundation of the series.
+It does not claim that usage alone is sufficient.
 
-Its main purpose is to define the audit question:
-
-**Does observed usage translate into retained demand?**
-
-If the answer is no, then visible adoption alone is insufficient evidence of durable asset-level demand.
+---
 
 ## Falsification / Audit Relevance
 
-The framework becomes weaker if:
+The retained-demand thesis weakens if:
 
-- usage can occur without pre-positioned inventory
-- settlement can be completed through alternative rails
-- internal netting or orchestration removes the need for the asset
-- the asset is only touched temporarily and then released
-- removing the asset does not worsen system performance
+- bridge-like overflow does not emerge
+- the asset is not selected
+- institutional stacks expand while bypassing the asset
+- stablecoins, tokenized deposits, fiat rails, or internal systems cover the relevant workflows
+- netting, orchestration, or synchronization compresses retained-demand need
+- visible usage grows without evidence of held-form demand
+
+---
 
 ## Relationship to Other Papers
 
-Paper 1 defines the retained-demand lens.
+Paper 1 defines retained demand by type.
 
-Paper 2 applies this lens to settlement-stack expansion and closure.
+Paper 2 asks whether settlement-stack expansion actually reaches closure.
 
 Paper 3 translates retained demand into required liquidity density.
 
-Paper 4 applies the framework to compression, bypass, and amplification outcomes.
+Paper 4 classifies institutional stack outcomes as compression, bypass, or amplification.
 
-Paper 5 converts the framework into an operational evidence-gating protocol.
+Paper 5 gates sizing by evidence.
 
-Paper 6 extends the framework into backend retained demand after user abstraction.
+Paper 6 asks where retained demand appears after user abstraction.
 
-## Link to Full PDF
+---
+
+## Full PDF
 
 [Read the full PDF](../papers/Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf)

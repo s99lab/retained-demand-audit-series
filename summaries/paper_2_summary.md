@@ -4,113 +4,134 @@
 
 **Expansion Is Not Closure: Settlement Stack Competition and the Conditional Relevance of External Connective Assets**
 
+---
+
 ## Core Proposition
 
-**Expansion is not closure.**
+> Expansion is not closure.
 
-This paper argues that the expansion of digital settlement infrastructure does not automatically mean that a settlement stack has achieved full closure.
+Paper 2 examines whether the expansion of institutional digital financial infrastructure actually closes the relevant settlement problem.
 
-A payment network, stablecoin system, tokenized deposit framework, CBDC layer, or treasury rail may expand significantly while still leaving unresolved gaps across jurisdictions, ledgers, currencies, liquidity pools, compliance environments, or institutional workflows.
+It argues that stablecoins, tokenized deposits, CBDCs, internal treasury rails, omnibus structures, and orchestration mechanisms may expand the settlement field without fully eliminating economically meaningful residual overflow.
+
+---
 
 ## Role in the Series
 
-Paper 2 extends the retained-demand framework introduced in Paper 1 into settlement-stack competition.
+Paper 2 is the settlement-stack competition layer of the Retained-Demand Audit Series.
 
-It asks whether expanding infrastructure eliminates the need for external connective assets, or whether gaps remain where such assets may still be conditionally relevant.
+Paper 1 defines retained demand.
 
-The paper is not about whether infrastructure is growing. It is about whether that growth closes the system enough to remove the need for external connective liquidity.
+Paper 2 asks whether the conditions that could create external connective-asset relevance survive competing closure mechanisms.
+
+Its function is to separate:
+
+- infrastructure expansion
+- settlement-stack closure
+- residual overflow
+- asset selection
+
+---
 
 ## Key Concepts
 
 ### Expansion vs. Closure
 
-Expansion means that more institutions, networks, assets, jurisdictions, or use cases become connected to a settlement system.
+Expansion means the institutional settlement surface grows.
 
-Closure means that the settlement stack can internally resolve the relevant payment, liquidity, compliance, and settlement needs without relying on an external connective asset.
+Closure means residual boundary-crossing friction has been compressed to economic immateriality.
 
 Expansion can occur without closure.
 
-### External Connective Assets
-
-An external connective asset is an asset that may help bridge otherwise fragmented settlement environments.
-
-However, its relevance is conditional. It must be selected, retained, and operationally necessary. Merely existing as a bridge-capable asset is not enough.
-
 ### Residual Overflow
 
-Residual overflow refers to flows that remain outside closed internal systems.
+Residual overflow refers to economically material frictions that remain after competing closure mechanisms operate.
 
-These flows may arise from cross-border complexity, ledger fragmentation, currency mismatch, liquidity shortages, or institutional limits.
+These may arise across:
 
-Residual overflow does not automatically prove asset demand. It only identifies a possible zone where external connective assets may become relevant.
+- jurisdictions
+- ledgers or platforms
+- balance sheets
+- collateral regimes
+- timing and synchronization
+- institutional boundaries
+- compliance and eligibility constraints
+- stress and execution conditions
 
-### Selection Constraints
+### Closure Mechanisms
 
-Even if residual overflow exists, an asset must still pass selection constraints.
+Paper 2 evaluates several closure mechanisms, including:
 
-These may include:
+- stablecoins
+- tokenized deposits
+- CBDCs
+- internal treasury rails
+- omnibus structures
+- prime-brokerage or custody aggregation
+- netting, orchestration, synchronization, and liquidity-saving mechanisms
 
-- liquidity depth
-- compliance acceptability
-- governance trust
-- operational reliability
-- custody and accounting treatment
-- institutional incentive alignment
-- integration cost
-- regulatory admissibility
+Each mechanism may close some boundaries while leaving others unresolved.
+
+### Overflow Is Not Selection
+
+Residual overflow creates a possible role for an external connective asset.
+
+It does not prove that any particular asset will be selected.
+
+Selection still depends on governance, compliance, liquidity depth, distribution, operational simplicity, and incentives.
+
+---
 
 ## What This Paper Does
 
-This paper provides a way to evaluate whether new settlement infrastructure compresses, bypasses, or preserves the role of external connective assets.
+Paper 2 provides a framework for evaluating whether external connective assets remain conditionally relevant under settlement-stack competition.
 
-It prevents readers from assuming that infrastructure expansion either automatically destroys bridge-asset relevance or automatically strengthens it.
+It does not assume that infrastructure expansion eliminates external connective assets.
 
-The paper holds both possibilities open and makes the outcome conditional on stack-level closure.
+It also does not assume that expansion proves their necessity.
+
+---
 
 ## What This Paper Does Not Claim
 
-This paper does not claim that external connective assets are guaranteed to be needed.
+Paper 2 does not claim that external connective assets must persist.
 
-It also does not claim that stablecoins, tokenized deposits, CBDCs, treasury rails, or internal settlement systems will fully eliminate them.
+It does not claim that XRP, or any other asset, will be selected.
 
-The paper does not make a price prediction or investment claim.
+It does not provide a price thesis.
 
-It provides a structural audit lens for evaluating whether infrastructure expansion actually reaches closure.
+It does not treat residual overflow as sufficient evidence of retained demand.
 
-## How to Read It
-
-Read Paper 2 as the series paper that separates infrastructure growth from settlement-stack completeness.
-
-Its central question is:
-
-**Does expansion close the stack, or does it leave residual overflow where external connective assets remain conditionally relevant?**
+---
 
 ## Falsification / Audit Relevance
 
-The relevance of external connective assets weakens if:
+External connective-asset relevance weakens if:
 
-- stablecoins, tokenized deposits, CBDCs, or internal treasury rails achieve broad closure
-- cross-border and cross-ledger flows can be resolved internally
-- residual overflow becomes economically immaterial
-- external assets are bypassed by orchestration, omnibus structures, or internal netting
-- the asset is technically available but not selected by institutions
+- residual overflow is compressed to economic immateriality
+- stablecoins, tokenized deposits, CBDCs, internal systems, or orchestration mechanisms provide full-coverage alternatives
+- residual overflow exists but the asset is not selected
+- the asset fails governance, compliance, liquidity-depth, distribution, operational, or incentive filters
+- retained-demand evidence does not appear
 
-The relevance strengthens only if residual flows remain material and the asset is actually selected, retained, and operationally useful.
+---
 
 ## Relationship to Other Papers
 
 Paper 1 defines retained demand.
 
-Paper 2 asks whether settlement-stack expansion creates or removes the conditions under which retained demand may arise.
+Paper 2 tests whether residual relevance can survive settlement-stack closure competition.
 
-Paper 3 later translates retained demand into required liquidity density.
+Paper 3 asks what liquidity-density burden would follow if retained demand exists.
 
-Paper 4 applies the expansion/closure logic to compression, bypass, and amplification outcomes.
+Paper 4 applies the framework to stack outcomes.
 
-Paper 5 turns the question into an operational evidence-gating process.
+Paper 5 gates sizing by evidence.
 
-Paper 6 extends the logic to backend retained demand after user abstraction.
+Paper 6 extends the audit to backend retained demand after user abstraction.
 
-## Link to Full PDF
+---
+
+## Full PDF
 
 [Read the full PDF](../papers/Paper_2_Expansion_Is_Not_Closure_v2_0.pdf)

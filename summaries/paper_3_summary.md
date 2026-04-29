@@ -4,122 +4,124 @@
 
 **From Retained Demand to Required Liquidity Density: A Conditional Sizing Framework for Institutionally Connected Digital Assets**
 
+---
+
 ## Core Proposition
 
-**Sizing is not a price thesis.**
+> Sizing is not a price thesis.
 
-This paper translates retained demand into a conditional liquidity-density framework.
+Paper 3 translates retained demand into required liquidity conditions.
 
-It does not attempt to predict the future price of any digital asset. Instead, it asks what level of usable liquidity, depth, turnover, and float availability would be required if a given asset were selected and retained within institutionally connected workflows.
+It argues that the relevant question is not what an asset should be worth, but what liquidity density, inventory depth, usable float, turnover, and slippage tolerance would be required if the asset were relied upon in retained form.
+
+---
 
 ## Role in the Series
 
-Paper 3 builds directly on Paper 1 and Paper 2.
+Paper 3 is the liquidity-density translation layer of the Retained-Demand Audit Series.
 
 Paper 1 defines retained demand.
 
-Paper 2 examines whether settlement-stack expansion reaches closure or leaves residual zones where external connective assets may remain relevant.
+Paper 2 asks whether residual overflow survives closure competition.
 
-Paper 3 asks what happens if retained demand is real enough to create a measurable liquidity burden.
+Paper 3 asks:
 
-Its role is to convert retained-demand reasoning into a conditional sizing framework without turning the analysis into a price prediction.
+> If retained demand exists, what liquidity conditions would it require?
+
+It does not convert retained demand into a price target.
+
+It converts retained demand into a conditional liquidity-feasibility problem.
+
+---
 
 ## Key Concepts
 
 ### Required Liquidity Density
 
-Required liquidity density refers to the liquidity capacity needed for an asset to support institutionally relevant flows under operational constraints.
+Required liquidity density refers to the liquidity conditions needed to support operational flow under bounded slippage, timing, and market-impact constraints.
 
-It is not simply market capitalization.
+It is not the same as market capitalization.
 
-It depends on whether enough usable liquidity exists at the right time, in the right venue, with acceptable slippage, depth, and reliability.
+It depends on:
+
+- usable float
+- available depth
+- turnover
+- positioning
+- execution windows
+- slippage tolerance
+- bounded market impact
 
 ### Gross-Flow Density
 
-Gross-flow density focuses on the burden created by large transaction flows before netting, compression, or settlement efficiency reduces them.
+Gross-flow density frames the relationship between flow size and the usable liquidity conditions needed to process that flow.
 
-The concept helps evaluate whether an asset can realistically support institutional-scale movement without excessive slippage or execution risk.
+High gross flow does not automatically imply high retained demand.
 
-### Usable Float
-
-Usable float refers to the portion of supply that is actually available for institutional liquidity use.
-
-Not all circulating supply should be treated as operationally available. Some may be locked, inactive, speculative, inaccessible, or unwilling to move at relevant price levels.
-
-### Available Depth
-
-Available depth refers to the market liquidity that can absorb institutional transaction size within acceptable slippage limits.
-
-This is different from headline volume.
+The key question is how much of that flow creates a burden on usable liquidity.
 
 ### Conditional Sizing
 
-The framework is conditional because sizing only matters after earlier gates are satisfied.
+Sizing outputs should be read as conditional simulation outputs.
 
-The paper does not begin with a desired price target. It begins with retained-demand assumptions and asks what liquidity burden would follow if those assumptions were valid.
+They are liquidity-feasibility tests, not valuation estimates or target prices.
+
+---
 
 ## What This Paper Does
 
-This paper provides a framework for translating retained demand into liquidity requirements.
+Paper 3 provides a conditional sizing framework for retained-demand claims.
 
-It helps distinguish between:
+It asks what liquidity conditions would be required if retained demand were operationally meaningful.
 
-- speculative price targets
-- market capitalization narratives
-- operational liquidity feasibility
-- institutional-scale settlement constraints
+It separates quantity conditions from price narratives.
 
-It also clarifies that high theoretical flow numbers do not automatically imply high asset value unless retained demand, selection, and liquidity burden are all supported.
+---
 
 ## What This Paper Does Not Claim
 
-This paper does not claim that any specific asset should reach a particular price.
+Paper 3 does not provide a price target.
 
-It does not present a deterministic valuation model.
+It does not claim that retained demand has already been demonstrated.
 
-It does not treat all transaction volume as asset demand.
+It does not claim that any particular asset requires a specific valuation outcome.
 
-It does not assume that infrastructure expansion automatically creates liquidity-density burden.
+It does not treat sizing outputs as investment conclusions.
 
-Instead, it provides a conditional testing framework.
+---
 
-## How to Read It
+## Weakening and Invalidation Conditions
 
-Read Paper 3 as a bridge between conceptual demand analysis and liquidity-feasibility analysis.
+A stronger sizing claim weakens if:
 
-Its central question is:
+- retained-demand intensity is low
+- realized asset selection is weak
+- settlement is internalized
+- netting or compression reduces the liquidity burden
+- turnover is favorable
+- demand is distributed rather than concentrated
+- substitutes absorb the relevant function
+- full-coverage alternatives emerge
+- retained-demand evidence remains shallow
 
-**If retained demand exists, what level of usable liquidity density would be required for the asset to perform the relevant institutional function?**
-
-## Falsification / Audit Relevance
-
-The liquidity-density argument weakens if:
-
-- retained demand is not demonstrated
-- the asset is not selected by institutions
-- internal netting reduces gross-flow burden
-- settlement compression lowers required liquidity
-- turnover is high enough to reduce inventory needs
-- flows are distributed across other assets or rails
-- usable float and market depth are sufficient without meaningful scarcity pressure
-- institutional flows can be routed through substitutes
-
-The framework therefore treats sizing as a downstream audit step, not a starting assumption.
+---
 
 ## Relationship to Other Papers
 
-Paper 1 defines retained demand.
+Paper 1 defines retained demand by type.
 
-Paper 2 evaluates whether settlement-stack expansion reaches closure.
+Paper 2 examines whether residual overflow survives closure competition.
 
 Paper 3 translates retained demand into required liquidity density.
 
-Paper 4 applies this reasoning to compression, bypass, and amplification outcomes.
+Paper 4 asks whether institutional stack design compresses, bypasses, or amplifies the asset-specific burden.
 
-Paper 5 later clarifies that sizing must be evidence-gated.
+Paper 5 gates sizing by evidence.
 
-Paper 6 extends the framework into backend retained demand and just-in-time liquidity.
+Paper 6 extends the framework to backend retained demand after user abstraction.
 
-## Link to Full PDF
+---
+
+## Full PDF
 
 [Read the full PDF](../papers/Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf)
