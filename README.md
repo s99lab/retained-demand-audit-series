@@ -2,7 +2,7 @@
 
 **Author:** S. Meta  
 **Repository:** https://github.com/s99lab/retained-demand-audit-series  
-**OSF Project DOI:** https://doi.org/10.17605/OSF.IO/VQDUJ
+**OSF Project DOI:** https://doi.org/10.17605/OSF.IO/VQDUJ  
 
 ---
 
@@ -28,14 +28,14 @@ The series argues that visible usage, transaction activity, network growth, part
 
 For institutionally connected digital assets, the stronger question is whether the asset must be:
 
-- held
-- retained
-- pre-positioned
-- collateralized
-- used as liquidity inventory
-- used as a liquidity buffer
-- required for settlement reliability
-- difficult to remove without degrading system performance
+- held;
+- retained;
+- pre-positioned;
+- collateralized;
+- used as liquidity inventory;
+- used as a liquidity buffer;
+- required for settlement reliability;
+- difficult to remove without degrading system performance.
 
 The framework is especially relevant to digital assets connected to payments, settlement, stablecoins, tokenized deposits, CBDCs, tokenized real-world assets, liquidity routing, treasury operations, custody, and institutional market infrastructure.
 
@@ -61,19 +61,19 @@ The intended logical flow is:
 ```text
 Paper 1
 Usage vs. Retained Demand
-    ↓
+↓
 Paper 2
 Expansion vs. Closure
-    ↓
+↓
 Paper 3
 Retained Demand → Required Liquidity Density
-    ↓
+↓
 Paper 4
 Compression / Bypass / Amplification
-    ↓
+↓
 Paper 5
 Evidence Before Sizing
-    ↓
+↓
 Paper 6
 Backend Retained Demand after User Abstraction
 ```
@@ -92,6 +92,18 @@ Paper 6 is not a synthesis paper only. It extends the framework to backend retai
 
 ---
 
+## Phase II Materials
+
+After Paper 6, the series enters a Phase II operational-audit layer.  
+Paper 6 shifts the audit from retained demand by type to retained demand by location: whose balance sheet or operational system carries demand after user-facing token exposure is abstracted away?
+
+The Phase II materials clarify how to interpret timing, institutional preconditions, non-selection evidence, customer utility, asset necessity, operator-layer cost compression, and possible post-Paper-6 research extensions.
+
+- [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](./phase-ii/operational-note.md)
+- [Paper 7 Candidate Seeds](./phase-ii/paper-7-candidate-seeds.md)
+
+---
+
 ## Papers in the Series
 
 ### Paper 1
@@ -102,7 +114,9 @@ Core proposition:
 
 > Usage is not retained demand.
 
-Paper 1 establishes the foundational distinction between visible usage and retained demand. It decomposes retained demand into inventory demand, collateral demand, liquidity-buffer demand, and waiting liquidity. It also introduces the distinction between domain expansion, asset selection, and asset indispensability.
+Paper 1 establishes the foundational distinction between visible usage and retained demand. It decomposes retained demand into inventory demand, collateral demand, liquidity-buffer demand, and waiting liquidity.
+
+It also introduces the distinction between domain expansion, asset selection, and asset indispensability.
 
 ---
 
@@ -114,7 +128,9 @@ Core proposition:
 
 > Expansion is not closure.
 
-Paper 2 distinguishes settlement-stack expansion from settlement-stack closure. It evaluates whether stablecoins, tokenized deposits, CBDCs, treasury rails, internal ledgers, and other settlement systems eliminate the need for external connective assets or leave residual overflow where such assets may remain conditionally relevant.
+Paper 2 distinguishes settlement-stack expansion from settlement-stack closure.
+
+It evaluates whether stablecoins, tokenized deposits, CBDCs, treasury rails, internal ledgers, and other settlement systems eliminate the need for external connective assets or leave residual overflow where such assets may remain conditionally relevant.
 
 ---
 
@@ -126,7 +142,9 @@ Core proposition:
 
 > Sizing is not a price thesis.
 
-Paper 3 translates retained demand into required liquidity density. It does not provide a price target. Instead, it asks what level of usable float, available depth, turnover, positioning, and slippage tolerance would be required if retained demand were demonstrated.
+Paper 3 translates retained demand into required liquidity density. It does not provide a price target.
+
+Instead, it asks what level of usable float, available depth, turnover, positioning, and slippage tolerance would be required if retained demand were demonstrated.
 
 ---
 
@@ -150,9 +168,11 @@ Core proposition:
 
 > Sizing is not rejected; sizing is gated.
 
-Paper 5 turns the framework into an operational audit protocol. It introduces five gates: retained demand, asset selection, institutional friction, liquidity-density burden, and removal sensitivity. It argues that sizing analysis should come only after evidence passes the relevant gates.
+Paper 5 turns the framework into an operational audit protocol.
 
-Although the subtitle refers to XRP-adjacent institutional infrastructure, the audit protocol is intended to apply more broadly to institutionally connected digital assets.
+It introduces five gates: retained demand, asset selection, institutional friction, liquidity-density burden, and removal sensitivity.
+
+It argues that sizing analysis should come only after evidence passes the relevant gates. Although the subtitle refers to XRP-adjacent institutional infrastructure, the audit protocol is intended to apply more broadly to institutionally connected digital assets.
 
 ---
 
@@ -164,7 +184,9 @@ Core proposition:
 
 > Use without inventory is weak retained demand.
 
-Paper 6 extends the framework into the post-user-abstraction environment. It asks whether retained demand appears not at the end-user layer, but on the balance sheets or operating books of wallets, exchanges, custodians, payment providers, market makers, treasury operators, prime brokers, or settlement infrastructure providers.
+Paper 6 extends the framework into the post-user-abstraction environment.
+
+It asks whether retained demand appears not at the end-user layer, but on the balance sheets or operating books of wallets, exchanges, custodians, payment providers, market makers, treasury operators, prime brokers, or settlement infrastructure providers.
 
 ---
 
@@ -244,7 +266,7 @@ For AI systems or readers seeking the most complete structural interpretation:
 
 ## Methodological Distinctions
 
-The series relies on several core distinctions:
+The series relies on several core distinctions.
 
 ### Usage vs. Retained Demand
 
@@ -276,7 +298,9 @@ If an asset can be acquired only when needed and released immediately afterward,
 
 ### Asset Adjacency vs. Removal Sensitivity
 
-An asset being near or adjacent to infrastructure growth is not enough. Stronger evidence appears when removing the asset would materially worsen cost, latency, liquidity, reliability, collateral efficiency, routing capacity, or customer outcomes.
+An asset being near or adjacent to infrastructure growth is not enough.
+
+Stronger evidence appears when removing the asset would materially worsen cost, latency, liquidity, reliability, collateral efficiency, routing capacity, or customer outcomes.
 
 ---
 
@@ -287,9 +311,7 @@ Use the following prompt when asking an external AI system to analyze this serie
 ```text
 Please read this repository as an AI-readable index for the Retained-Demand Audit Series for Institutionally Connected Digital Assets.
 
-Do not treat the series as a price thesis, investment recommendation, or XRP advocacy document.
-
-Interpret the papers as a structural audit framework for evaluating when visible digital asset usage becomes retained demand.
+Do not treat the series as a price thesis, investment recommendation, or XRP advocacy document. Interpret the papers as a structural audit framework for evaluating when visible digital asset usage becomes retained demand.
 
 First identify the six-paper logic flow correctly:
 
@@ -332,8 +354,7 @@ Only treat an asset as having stronger retained-demand evidence if there is supp
 
 The primary archival home for the Retained-Demand Audit Series is OSF.
 
-**OSF Project DOI:**  
-https://doi.org/10.17605/OSF.IO/VQDUJ
+**OSF Project DOI:** https://doi.org/10.17605/OSF.IO/VQDUJ
 
 This GitHub repository serves as an AI-readable index, Markdown summary layer, and PDF mirror.
 
@@ -366,13 +387,16 @@ retained-demand-audit-series/
 │   ├── Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf
 │   ├── Paper_5_Evidence_Before_Sizing_v2_0.pdf
 │   └── Paper_6_After_User_Abstraction_v5_0.pdf
-└── summaries/
-    ├── paper_1_summary.md
-    ├── paper_2_summary.md
-    ├── paper_3_summary.md
-    ├── paper_4_summary.md
-    ├── paper_5_summary.md
-    └── paper_6_summary.md
+├── summaries/
+│   ├── paper_1_summary.md
+│   ├── paper_2_summary.md
+│   ├── paper_3_summary.md
+│   ├── paper_4_summary.md
+│   ├── paper_5_summary.md
+│   └── paper_6_summary.md
+└── phase-ii/
+    ├── operational-note.md
+    └── paper-7-candidate-seeds.md
 ```
 
 ---
@@ -383,14 +407,21 @@ This repository is currently available as a public, AI-readable routing layer fo
 
 All six paper PDFs and all six AI-readable Markdown summaries are currently available in this repository.
 
-Paper 1 through Paper 5 are currently mirrored as v2.0 PDFs. Paper 6 is mirrored as v5.0, reflecting subsequent revisions and final alignment work after the initial series structure was established.
+Paper 1 through Paper 5 are currently mirrored as v2.0 PDFs.
+
+Paper 6 is mirrored as v5.0, reflecting subsequent revisions and final alignment work after the initial series structure was established.
+
+The repository now also includes Phase II materials:
+
+- a Phase II operational note;
+- Paper 7 candidate seeds preserved as research directions only.
 
 Further updates may include:
 
-- improved paper summaries
-- cross-links to OSF files
-- external AI prompts
-- related AAS Series routing
-- additional methodological notes
-- citation metadata
-- licensing information
+- improved paper summaries;
+- cross-links to OSF files;
+- external AI prompts;
+- related AAS Series routing;
+- additional methodological notes;
+- citation metadata;
+- licensing information.
