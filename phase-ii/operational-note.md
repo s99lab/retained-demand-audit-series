@@ -2,10 +2,10 @@
 
 ## Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression
 
-**Author:** S. Meta  
-**Series:** Retained-Demand Audit Series for Institutionally Connected Digital Assets  
-**Status:** Phase II Operational Note / v0.2  
-**Date:** April 2026  
+**Author:** S. Meta
+**Series:** Retained-Demand Audit Series for Institutionally Connected Digital Assets
+**Status:** Phase II Operational Note / v0.2
+**Date:** April 2026
 
 ---
 
@@ -13,7 +13,7 @@
 
 This operational note explains how the Retained-Demand Audit Series should be applied after Paper 6.
 
-Paper 1 defined retained demand by type.  
+Paper 1 defined retained demand by type.
 Paper 6 extended the framework by asking where retained demand is located after user-facing token exposure is abstracted away.
 
 The central Phase II question is:
@@ -31,8 +31,7 @@ This note clarifies how to interpret:
 - complementary hypotheses;
 - and the bridge from Paper 6 to future Paper 7 candidate work.
 
-This note is not a price thesis, investment thesis, XRP advocacy document, or Paper 7.  
-It is an operational guide for applying Papers 1–6 in Phase II.
+This note is not a price thesis, investment thesis, XRP advocacy document, or Paper 7. It is an operational guide for applying Papers 1–6 in Phase II.
 
 ---
 
@@ -55,7 +54,9 @@ This operational note clarifies how the Retained-Demand Audit Series should be a
 
 The series does not provide a price thesis, investment thesis, or asset-advocacy argument. Its purpose is to audit whether institutionally connected digital assets generate retained demand under observable and falsifiable conditions.
 
-After Paper 6, the series enters a Phase II operational-audit layer. The key question is no longer only what forms of retained demand may exist, but how the framework should be used when evaluating real-world infrastructure development, institutional adoption, timing delays, non-selection evidence, and operator-layer cost structures.
+After Paper 6, the series enters a Phase II operational-audit layer.
+
+The key question is no longer only what forms of retained demand may exist, but how the framework should be used when evaluating real-world infrastructure development, institutional adoption, timing delays, non-selection evidence, and operator-layer cost structures.
 
 This note provides the operating rules for that Phase II layer.
 
@@ -79,7 +80,9 @@ The Retained-Demand Audit Series has developed through six papers.
 
 Paper 1 established the core distinction between visible usage and retained demand.
 
-It argued that transaction flow, network activity, ecosystem visibility, or infrastructure expansion should not be treated as sufficient evidence of asset-level economic necessity. Instead, the relevant audit question is whether institutional environments create reasons to retain an asset in inventory, collateral, liquidity-buffer, or waiting-liquidity form.
+It argued that transaction flow, network activity, ecosystem visibility, or infrastructure expansion should not be treated as sufficient evidence of asset-level economic necessity.
+
+Instead, the relevant audit question is whether institutional environments create reasons to retain an asset in inventory, collateral, liquidity-buffer, or waiting-liquidity form.
 
 Core distinction:
 
@@ -155,9 +158,7 @@ This operational note begins from that proposition.
 
 ## 2. Phase II: From Framework to Operation
 
-Phase I of the series developed the conceptual and procedural audit framework.
-
-Phase II applies that framework to real-world institutional development.
+Phase I of the series developed the conceptual and procedural audit framework. Phase II applies that framework to real-world institutional development.
 
 The main Phase II question is:
 
@@ -169,7 +170,9 @@ As user-facing token exposure disappears, the audit point shifts away from the u
 
 However, backend presence is not backend retained demand.
 
-An asset may be technically supported, displayed, custodied, routed, or made available without being operationally necessary. A platform may support an asset without retaining meaningful inventory. A treasury system may improve customer workflows without requiring that asset. A stablecoin rail may expand while bypassing the asset. A market maker may quote the asset without sustained inventory. A custodian may support the asset without using it in collateral, liquidity, or settlement workflows.
+An asset may be technically supported, displayed, custodied, routed, or made available without being operationally necessary.
+
+A platform may support an asset without retaining meaningful inventory. A treasury system may improve customer workflows without requiring that asset. A stablecoin rail may expand while bypassing the asset. A market maker may quote the asset without sustained inventory. A custodian may support the asset without using it in collateral, liquidity, or settlement workflows.
 
 Phase II therefore requires stricter operating discipline.
 
@@ -187,7 +190,9 @@ The question is:
 
 Timing matters, but it should not be applied mechanically.
 
-The absence of retained-demand evidence at one point in time does not automatically falsify a structural hypothesis. Institutional infrastructure may require regulatory clarity, custody maturity, accounting standards, prime-brokerage integration, liquidity-provider participation, market depth, collateral eligibility, and operational normalization before retained-demand evidence can reasonably appear.
+The absence of retained-demand evidence at one point in time does not automatically falsify a structural hypothesis.
+
+Institutional infrastructure may require regulatory clarity, custody maturity, accounting standards, prime-brokerage integration, liquidity-provider participation, market depth, collateral eligibility, and operational normalization before retained-demand evidence can reasonably appear.
 
 At the same time, time cannot be ignored indefinitely.
 
@@ -224,7 +229,6 @@ However, once these preconditions have materially advanced, continued absence of
 The same evidence gap can therefore have different meaning at different stages.
 
 Before preconditions mature, absence may be inconclusive.
-
 After preconditions mature, absence may become non-selection evidence.
 
 ---
@@ -248,9 +252,7 @@ Examples include:
 - insufficient cross-ledger institutional workflows;
 - lack of stress events that would reveal resilience dependence.
 
-In these cases, absence of evidence should be treated cautiously.
-
-It may justify watch status, not immediate rejection.
+In these cases, absence of evidence should be treated cautiously. It may justify watch status, not immediate rejection.
 
 ### 5.2 Dangerous Silence
 
@@ -318,9 +320,7 @@ Customers may gain:
 - broader digital-asset support;
 - programmable settlement features.
 
-These benefits establish infrastructure value.
-
-They do not establish asset necessity.
+These benefits establish infrastructure value. They do not establish asset necessity.
 
 The relevant question is not whether customers benefit from the infrastructure stack.
 
@@ -351,9 +351,7 @@ A customer may receive value from Ripple Treasury, Ripple Payments, RLUSD, custo
 
 The same principle applies across assets.
 
-Customer value is evidence of infrastructure usefulness.
-
-It is not evidence of retained asset necessity unless removal-sensitive degradation is shown.
+Customer value is evidence of infrastructure usefulness. It is not evidence of retained asset necessity unless removal-sensitive degradation is shown.
 
 ---
 
@@ -393,7 +391,9 @@ The relevant comparison is:
 
 In simplified form:
 
-> Asset-inclusive total operator cost < Asset-free total operator cost
+```text
+Asset-inclusive total operator cost < Asset-free total operator cost
+```
 
 This comparison requires evidence.
 
@@ -453,17 +453,13 @@ A complementary hypothesis must specify:
 
 For example, if a payments-based retained-demand claim weakens and the analysis shifts to operator-layer cost compression, that shift is allowed only if the new operator-cost claim has its own evidence requirements and failure conditions.
 
-The new hypothesis must not merely preserve confidence.
-
-It must create a stricter audit path.
+The new hypothesis must not merely preserve confidence. It must create a stricter audit path.
 
 ---
 
 ## 10. Unrealized Is Not Disproof, But Not Confirmation
 
-A structurally reasonable hypothesis may remain unrealized for a period of time.
-
-That does not automatically disprove it.
+A structurally reasonable hypothesis may remain unrealized for a period of time. That does not automatically disprove it.
 
 Institutional adoption may be delayed by regulation, custody, accounting, risk limits, liquidity fragmentation, governance approval, market immaturity, or lack of stress events.
 
@@ -505,22 +501,24 @@ Paper 7 Candidate A may then formalize one narrower question:
 
 A possible Paper 7 title is:
 
-> Operator-Layer Cost Compression, Inventory Formation, and Non-Selection Evidence:  
+> Operator-Layer Cost Compression, Inventory Formation, and Non-Selection Evidence:
 > A Boundary Model for Backend Retained Demand
 
 The boundary model would examine the conditions under which:
 
-> JIT procurement cost  
-> + execution failure risk  
-> + market impact  
-> + stress-time access risk  
->
-> exceeds  
->
-> pre-positioned inventory capital cost  
-> + custody friction  
-> + regulatory / accounting cost  
-> + governance burden
+```text
+JIT procurement cost
++ execution failure risk
++ market impact
++ stress-time access risk
+
+exceeds
+
+pre-positioned inventory capital cost
++ custody friction
++ regulatory / accounting cost
++ governance burden
+```
 
 Where the first side dominates, backend retained demand becomes more plausible.
 
@@ -532,7 +530,7 @@ It should be launched only after:
 
 1. this operational note is stabilized;
 2. Paper 1–6 routing is coherent;
-3. Paper 6’s Phase II role is clear;
+3. Paper 6's Phase II role is clear;
 4. the JIT vs inventory variables are organized;
 5. non-selection evidence is defined carefully;
 6. the paper can be written as a boundary model rather than an asset-defense argument.
@@ -577,7 +575,8 @@ Recommended README addition:
 ```markdown
 ## Phase II Materials
 
-After Paper 6, the series enters a Phase II operational-audit layer.  
+After Paper 6, the series enters a Phase II operational-audit layer.
+
 The operational note below clarifies how to interpret timing, institutional preconditions, non-selection evidence, customer utility, asset necessity, and operator-layer cost compression.
 
 - [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](./phase-ii/operational-note.md)
@@ -590,7 +589,6 @@ The operational note below clarifies how to interpret timing, institutional prec
 This note is a Phase II operational bridge.
 
 It is not Paper 7.
-
 It does not add a new retained-demand category.
 
 It specifies how the existing Retained-Demand Audit Series should be operated after Paper 6.

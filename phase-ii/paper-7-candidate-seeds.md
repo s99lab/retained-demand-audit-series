@@ -2,10 +2,10 @@
 
 ## Post-Paper-6 / Phase II Research Extensions
 
-**Author:** S. Meta  
-**Series:** Retained-Demand Audit Series for Institutionally Connected Digital Assets  
-**Status:** Research Seeds / Hold / Do Not Launch Yet  
-**Date:** April 2026  
+**Author:** S. Meta
+**Series:** Retained-Demand Audit Series for Institutionally Connected Digital Assets
+**Status:** Research Seeds / Hold / Do Not Launch Yet
+**Date:** April 2026
 
 ---
 
@@ -13,13 +13,16 @@
 
 This file preserves candidate directions for a possible Paper 7 or later Phase II papers in the Retained-Demand Audit Series.
 
-Paper 6, *After User Abstraction*, opened Phase II by shifting the retained-demand audit from demand by type to demand by location. It asked whose balance sheet or operational system carries retained demand after user-facing token exposure is abstracted away.
+Paper 6, *After User Abstraction*, opened Phase II by shifting the retained-demand audit from demand by type to demand by location.
+
+It asked whose balance sheet or operational system carries retained demand after user-facing token exposure is abstracted away.
 
 The central proposition of Paper 6 is:
 
 > Use without inventory is weak retained demand.
 
-This seed file does not launch Paper 7.  
+This seed file does not launch Paper 7.
+
 It preserves three candidate research directions that naturally emerge from Paper 6:
 
 1. **Candidate A:** Operator-layer cost compression, inventory formation, and non-selection evidence.
@@ -128,7 +131,7 @@ The five gates are:
 
 Paper 6 opened Phase II.
 
-Paper 1 classified retained demand by type.  
+Paper 1 classified retained demand by type.
 Paper 6 classified retained demand by location.
 
 Core proposition:
@@ -184,7 +187,7 @@ This leads to Candidate C.
 
 These candidates are not forced sequels.
 
-They are natural extensions of Paper 6’s location-based retained-demand framework.
+They are natural extensions of Paper 6's location-based retained-demand framework.
 
 ---
 
@@ -194,12 +197,12 @@ They are natural extensions of Paper 6’s location-based retained-demand framew
 
 ### Provisional Title
 
-**Operator-Layer Cost Compression, Inventory Formation, and Non-Selection Evidence:**  
+**Operator-Layer Cost Compression, Inventory Formation, and Non-Selection Evidence:**
 **A Boundary Model for Backend Retained Demand**
 
 ### Japanese Conceptual Title
 
-**オペレーター層コスト圧縮・在庫形成・非選定証拠：**  
+**オペレーター層コスト圧縮・在庫形成・非選定証拠：**
 **裏側保持需要の境界モデル**
 
 ---
@@ -224,17 +227,19 @@ This makes Candidate A the most direct continuation of Paper 6.
 
 The core boundary can be expressed as:
 
-> JIT procurement cost  
-> + execution failure risk  
-> + market impact  
-> + stress-time access risk  
->
-> exceeds  
->
-> pre-positioned inventory capital cost  
-> + custody friction  
-> + regulatory / accounting cost  
-> + governance burden
+```text
+JIT procurement cost
++ execution failure risk
++ market impact
++ stress-time access risk
+
+exceeds
+
+pre-positioned inventory capital cost
++ custody friction
++ regulatory / accounting cost
++ governance burden
+```
 
 When the first side dominates, backend retained demand becomes more plausible.
 
@@ -352,12 +357,12 @@ Candidate A has the strongest immediate research value.
 
 It can:
 
-- formalize Paper 6’s JIT vs inventory boundary;
-- extend Paper 5’s evidence-gated logic;
+- formalize Paper 6's JIT vs inventory boundary;
+- extend Paper 5's evidence-gated logic;
 - clarify when non-selection evidence becomes meaningful;
 - provide a practical decision boundary for market makers, custodians, treasury operators, settlement providers, and prime-brokerage layers;
 - prevent operator-layer cost compression from becoming an unfalsifiable rescue hypothesis;
-- preserve the series’ core discipline: infrastructure success does not equal asset demand.
+- preserve the series' core discipline: infrastructure success does not equal asset demand.
 
 ---
 
@@ -393,8 +398,8 @@ Candidate A should remain on hold until the following conditions are met:
 
 ## 2.10 Current Status
 
-**Priority:** 1  
-**Status:** Primary Candidate / Draftable Later / Hold  
+**Priority:** 1
+**Status:** Primary Candidate / Draftable Later / Hold
 **Current Judgment:** Strongest Paper 7 candidate, but not yet launched.
 
 ---
@@ -405,12 +410,12 @@ Candidate A should remain on hold until the following conditions are met:
 
 ### Provisional Title
 
-**When Waiting Liquidity Disappears:**  
+**When Waiting Liquidity Disappears:**
 **Atomic Settlement, Netting, and the Compression of Temporal Liquidity Demand**
 
 ### Japanese Conceptual Title
 
-**待機流動性はいつ消えるのか：**  
+**待機流動性はいつ消えるのか：**
 **原子決済・内部相殺・時間的流動性需要の圧縮**
 
 ---
@@ -422,7 +427,6 @@ Paper 1 defined waiting liquidity as one form of retained demand.
 Paper 2 identified timing and synchronization overflow as one source of residual bridge-like friction.
 
 Paper 4 examined compression, bypass, and amplification.
-
 Paper 6 examined just-in-time liquidity and pre-positioned inventory.
 
 Candidate B asks:
@@ -498,10 +502,10 @@ Candidate B has high conceptual and policy relevance.
 
 It can:
 
-- deepen Paper 1’s waiting-liquidity category;
-- extend Paper 2’s timing and synchronization overflow;
-- connect Paper 4’s compression logic to temporal liquidity demand;
-- connect Paper 6’s JIT/inventory boundary to settlement timing;
+- deepen Paper 1's waiting-liquidity category;
+- extend Paper 2's timing and synchronization overflow;
+- connect Paper 4's compression logic to temporal liquidity demand;
+- connect Paper 6's JIT/inventory boundary to settlement timing;
 - speak to FMI, settlement-design, stablecoin, tokenized-deposit, CBDC, and payment-system audiences;
 - reduce XRP-specific overreading by focusing on general settlement architecture.
 
@@ -540,8 +544,8 @@ Candidate B should remain on hold until:
 
 ## 3.7 Current Status
 
-**Priority:** 2  
-**Status:** Secondary Hold Candidate  
+**Priority:** 2
+**Status:** Secondary Hold Candidate
 **Current Judgment:** Strong and elegant, but broader than Candidate A and not ready for immediate launch.
 
 ---
@@ -552,12 +556,12 @@ Candidate B should remain on hold until:
 
 ### Provisional Title
 
-**Smart Retention:**  
+**Smart Retention:**
 **Autonomous Treasury, Agentic Finance, and Algorithmic Inventory Selection in Digital Asset Infrastructure**
 
 ### Japanese Conceptual Title
 
-**スマート保持需要：**  
+**スマート保持需要：**
 **自律型財務・AIエージェント金融・デジタル資産インフラにおける在庫選定アルゴリズム**
 
 ---
@@ -654,7 +658,7 @@ Risks include:
 
 - evidence is currently thin;
 - the topic may become speculative;
-- it may sound like generic “AI will manage finance” futurism;
+- it may sound like generic "AI will manage finance" futurism;
 - boundaries with AAS / ALISE / Human-AI Research OS work may blur;
 - it may drift away from retained-demand audit discipline;
 - it may require examples that do not yet exist publicly.
@@ -679,8 +683,8 @@ Candidate C should remain on long hold until:
 
 ## 4.7 Current Status
 
-**Priority:** 3  
-**Status:** Long Hold Candidate  
+**Priority:** 3
+**Status:** Long Hold Candidate
 **Current Judgment:** Highest future originality, but not suitable for near-term launch.
 
 ---
@@ -736,7 +740,7 @@ Reason:
 
 - most direct continuation of Paper 6;
 - strongest connection to the Operational Note;
-- extends Paper 5’s evidence-gated approach;
+- extends Paper 5's evidence-gated approach;
 - useful for market makers, custodians, treasury operators, prime brokers, liquidity providers, and settlement infrastructure;
 - can become a clear boundary-model paper.
 
@@ -772,9 +776,7 @@ The current decision is:
 > Preserve all three candidates, but do not launch Paper 7 yet.
 
 Candidate A is the strongest future Paper 7 candidate.
-
 Candidate B should remain as a secondary Phase II seed.
-
 Candidate C should remain on long hold.
 
 Immediate priority remains:
@@ -789,18 +791,15 @@ Immediate priority remains:
 
 # 9. One-Sentence Summary
 
-Paper 7 candidate seeds extend Paper 6’s backend retained-demand framework into three directions:  
-Candidate A models inventory formation and non-selection evidence; Candidate B studies the evaporation or persistence of waiting liquidity; Candidate C explores future autonomous treasury and algorithmic inventory selection.
+Paper 7 candidate seeds extend Paper 6's backend retained-demand framework into three directions: Candidate A models inventory formation and non-selection evidence; Candidate B studies the evaporation or persistence of waiting liquidity; Candidate C explores future autonomous treasury and algorithmic inventory selection.
 
 ---
 
 # 10. Status
 
-**Status:** Seed / Hold / Do Not Launch Yet  
-**Primary Candidate:** Candidate A  
-**Secondary Candidate:** Candidate B  
-**Long-Hold Candidate:** Candidate C  
+**Status:** Seed / Hold / Do Not Launch Yet
+**Primary Candidate:** Candidate A
+**Secondary Candidate:** Candidate B
+**Long-Hold Candidate:** Candidate C
 
-This file preserves future research options without launching them.
-
-Paper 7 remains unlaunched until the Phase II Operational Note and Paper 1–6 routing are stable.
+This file preserves future research options without launching them. Paper 7 remains unlaunched until the Phase II Operational Note and Paper 1–6 routing are stable.
