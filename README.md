@@ -1,364 +1,255 @@
-# Retained-Demand Audit Series for Institutionally Connected Digital Assets
+# Retained-Demand Audit Series
 
-**Author:** S. Meta  
-**Repository:** https://github.com/s99lab/retained-demand-audit-series  
-**OSF Project DOI:** https://doi.org/10.17605/OSF.IO/VQDUJ  
+## Retained-Demand Audit Series for Institutionally Connected Digital Assets
+
+This repository preserves the **Retained-Demand Audit Series for Institutionally Connected Digital Assets** by S. Meta.
+
+The series develops a structural audit framework for evaluating whether institutionally connected digital assets generate retained demand, rather than merely showing visible usage, infrastructure expansion, asset adjacency, or speculative attention.
+
+The papers are intended as working papers and primary-source materials.  
+This repository is designed to make the series easier to read, cite, inspect, and route through external AI systems without replacing the papers themselves.
 
 ---
 
-## Purpose
+## Repository Purpose
 
-This repository provides an AI-readable index, PDF mirror, and structured entry point for the **Retained-Demand Audit Series for Institutionally Connected Digital Assets**.
+This repository is not only a PDF archive.
 
-The series develops a structural audit framework for evaluating institutionally connected digital assets by distinguishing visible usage from retained demand, infrastructure expansion from asset necessity, and speculative sizing from evidence-gated liquidity analysis.
+It is an AI-readable research portal designed to help readers move from:
 
-The purpose of this repository is not to promote any asset, forecast price, or provide investment advice.
+1. repository-level orientation,
+2. paper-level summaries,
+3. full PDF papers,
+4. preserved OSF archive materials.
 
-Instead, it is designed to help human readers, researchers, analysts, and external AI systems evaluate whether digital assets become structurally necessary within institutional settlement, liquidity, collateral, treasury, or backend infrastructure workflows.
+The intended reading path is:
+
+```text
+README
+→ framework scope
+→ summaries
+→ papers
+→ OSF DOI
+```
+
+The papers remain the primary source.  
+Companion files clarify scope, boundaries, and evidence-gating logic without replacing or revising the papers.
+
+---
+
+## Framework Scope
+
+Before applying the framework, readers should review the scope and boundary document:
+
+- [Framework Scope and Boundaries](FRAMEWORK_SCOPE.md)
+
+This companion file clarifies what the framework does and does not claim, why XRP appears as a motivating and stress-test case, how the series differs from adjacent approaches, and how to avoid overreading infrastructure progress as asset-level demand.
+
+---
+
+## What This Series Is About
+
+The series asks a central question:
+
+> When does institutional or infrastructure connection create retained demand for a digital asset, rather than merely creating usage, visibility, compatibility, or narrative proximity?
+
+Across the papers, the series distinguishes:
+
+- usage from retained demand;
+- expansion from closure;
+- asset adjacency from asset selection;
+- sizing eligibility from price prediction;
+- infrastructure success from asset demand;
+- backend capability from backend retained demand;
+- customer utility from asset necessity;
+- just-in-time liquidity from pre-positioned inventory;
+- visible adoption from removal-sensitive dependence.
+
+The framework is designed to support both positive and negative findings.
+
+A finding of “not enough evidence,” “not retained demand,” or “not yet eligible for sizing” is a valid outcome.
+
+---
+
+## What This Series Is Not
+
+This series is not:
+
+- investment advice;
+- a price prediction model;
+- XRP advocacy;
+- a recommendation to buy, sell, or hold any asset;
+- a claim that Ripple success automatically creates XRP demand;
+- a claim that infrastructure expansion automatically creates asset demand;
+- a claim that usage automatically becomes retained demand;
+- a universal theory of digital assets;
+- a substitute for empirical market data, legal analysis, institutional disclosure, or peer review.
+
+XRP appears in the series as a motivating and stress-test case because it sits near several institutional themes at once, including settlement, liquidity bridging, stablecoin adjacency, tokenized asset infrastructure, and institutional market structure.
+
+The framework does not assume that these themes converge into XRP-specific retained demand.
 
 ---
 
 ## Series Overview
 
-The Retained-Demand Audit Series asks a core question:
-
-> When does digital asset usage become retained demand?
-
-The series argues that visible usage, transaction activity, network growth, partnerships, or infrastructure expansion should not be treated as sufficient evidence of durable asset demand.
-
-For institutionally connected digital assets, the stronger question is whether the asset must be:
-
-- held;
-- retained;
-- pre-positioned;
-- collateralized;
-- used as liquidity inventory;
-- used as a liquidity buffer;
-- required for settlement reliability;
-- difficult to remove without degrading system performance.
-
-The framework is especially relevant to digital assets connected to payments, settlement, stablecoins, tokenized deposits, CBDCs, tokenized real-world assets, liquidity routing, treasury operations, custody, and institutional market infrastructure.
-
-XRP and XRP-adjacent infrastructure are used in parts of the series as motivating or stress-test cases, but the series is not an XRP price thesis, XRP advocacy document, or investment thesis.
-
----
-
-## Series Logic Flow
-
-The six papers should be read as a cumulative audit sequence, not as separate market commentaries.
-
-| Paper | Core Function | Main Question |
-|---|---|---|
-| Paper 1 | Defines retained demand | Does visible usage become retained demand? |
-| Paper 2 | Distinguishes expansion from closure | Does infrastructure expansion actually close the settlement stack? |
-| Paper 3 | Translates retained demand into required liquidity density | If retained demand exists, what liquidity density would be required? |
-| Paper 4 | Classifies stack-level outcomes | Does infrastructure growth compress, bypass, or amplify asset demand? |
-| Paper 5 | Applies evidence gates before sizing | Has the evidence become strong enough to justify sizing analysis? |
-| Paper 6 | Extends the audit to backend retained demand after user abstraction | If users no longer see the asset, does it reappear as backend inventory, collateral, or liquidity buffer? |
-
-The intended logical flow is:
-
-```text
-Paper 1
-Usage vs. Retained Demand
-↓
-Paper 2
-Expansion vs. Closure
-↓
-Paper 3
-Retained Demand → Required Liquidity Density
-↓
-Paper 4
-Compression / Bypass / Amplification
-↓
-Paper 5
-Evidence Before Sizing
-↓
-Paper 6
-Backend Retained Demand after User Abstraction
-```
-
-This sequence is important.
-
-Paper 2 is not a measurement paper. It is the settlement-stack competition and closure paper.
-
-Paper 3 is not a general market-dynamics paper. It is the conditional liquidity-density translation paper.
-
-Paper 4 is not the operational audit checklist. It is the applied stack-outcome classification paper.
-
-Paper 5 is not merely an XRP case study. It is the evidence-gated operational audit protocol, using XRP-adjacent infrastructure as a motivating and stress-test context.
-
-Paper 6 is not a synthesis paper only. It extends the framework to backend retained demand, just-in-time liquidity, and operator-layer balance-sheet necessity after user abstraction.
-
----
-
-## Phase II Materials
-
-After Paper 6, the series enters a Phase II operational-audit layer.  
-Paper 6 shifts the audit from retained demand by type to retained demand by location: whose balance sheet or operational system carries demand after user-facing token exposure is abstracted away?
-
-The Phase II materials clarify how to interpret timing, institutional preconditions, non-selection evidence, customer utility, asset necessity, operator-layer cost compression, and possible post-Paper-6 research extensions.
-
-- [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](./phase-ii/operational-note.md)
-- [Paper 7 Candidate Seeds](./phase-ii/paper-7-candidate-seeds.md)
-
----
-
-## Papers in the Series
-
-### Paper 1
-
+### Paper 1  
 **From Usage to Retained Demand: A Structural Audit Framework for Institutionally Connected Digital Assets**
 
-Core proposition:
+Introduces the distinction between visible usage and retained demand.  
+Retained demand is decomposed into inventory demand, collateral demand, liquidity-buffer demand, and waiting liquidity.
 
-> Usage is not retained demand.
-
-Paper 1 establishes the foundational distinction between visible usage and retained demand. It decomposes retained demand into inventory demand, collateral demand, liquidity-buffer demand, and waiting liquidity.
-
-It also introduces the distinction between domain expansion, asset selection, and asset indispensability.
-
----
-
-### Paper 2
-
+### Paper 2  
 **Expansion Is Not Closure: Settlement Stack Competition and the Conditional Relevance of External Connective Assets**
 
-Core proposition:
+Distinguishes infrastructure expansion from settlement-stack closure.  
+The paper examines whether stablecoins, tokenized deposits, CBDCs, internal treasury rails, omnibus structures, orchestration layers, or other mechanisms compress the need for external connective assets.
 
-> Expansion is not closure.
-
-Paper 2 distinguishes settlement-stack expansion from settlement-stack closure.
-
-It evaluates whether stablecoins, tokenized deposits, CBDCs, treasury rails, internal ledgers, and other settlement systems eliminate the need for external connective assets or leave residual overflow where such assets may remain conditionally relevant.
-
----
-
-### Paper 3
-
+### Paper 3  
 **From Retained Demand to Required Liquidity Density: A Conditional Sizing Framework for Institutionally Connected Digital Assets**
 
-Core proposition:
+Translates retained-demand assumptions into required liquidity-density constraints.  
+The paper treats sizing as a conditional liquidity-feasibility exercise rather than a price thesis.
 
-> Sizing is not a price thesis.
-
-Paper 3 translates retained demand into required liquidity density. It does not provide a price target.
-
-Instead, it asks what level of usable float, available depth, turnover, positioning, and slippage tolerance would be required if retained demand were demonstrated.
-
----
-
-### Paper 4
-
+### Paper 4  
 **Compression, Bypass, and Amplification: An Applied Stack-Audit Framework for Institutionally Connected Digital Assets**
 
-Core proposition:
+Applies the framework to stack-level outcomes.  
+Infrastructure growth may compress, bypass, or amplify asset demand depending on how settlement, liquidity, collateral, and routing functions are actually implemented.
 
-> Infrastructure growth may compress, bypass, or amplify asset demand.
-
-Paper 4 applies the retained-demand framework to settlement-stack outcomes. It classifies infrastructure growth into three possible effects: compression of asset demand, bypass of the asset, or amplification of retained demand.
-
----
-
-### Paper 5
-
+### Paper 5  
 **Evidence Before Sizing: An Operational Audit Protocol for XRP-Adjacent Institutional Infrastructure**
 
-Core proposition:
+Introduces an evidence-gated audit protocol.  
+Sizing is not rejected; sizing is gated.  
+The paper defines the sequence of retained demand, asset selection, institutional friction, liquidity-density burden, and removal sensitivity.
 
-> Sizing is not rejected; sizing is gated.
-
-Paper 5 turns the framework into an operational audit protocol.
-
-It introduces five gates: retained demand, asset selection, institutional friction, liquidity-density burden, and removal sensitivity.
-
-It argues that sizing analysis should come only after evidence passes the relevant gates. Although the subtitle refers to XRP-adjacent institutional infrastructure, the audit protocol is intended to apply more broadly to institutionally connected digital assets.
-
----
-
-### Paper 6
-
+### Paper 6  
 **After User Abstraction: Backend Retained Demand and Just-in-Time Liquidity in Institutionally Connected Digital Assets**
 
-Core proposition:
-
-> Use without inventory is weak retained demand.
-
-Paper 6 extends the framework into the post-user-abstraction environment.
-
-It asks whether retained demand appears not at the end-user layer, but on the balance sheets or operating books of wallets, exchanges, custodians, payment providers, market makers, treasury operators, prime brokers, or settlement infrastructure providers.
+Extends the framework to backend retained demand.  
+As user-facing token exposure becomes abstracted away, the paper asks whether retained demand appears on the balance sheets or operational systems of wallets, custodians, market makers, paymasters, treasury operators, or settlement providers.
 
 ---
 
-## PDF Files
+## Core Audit Sequence
 
-The individual paper PDFs are available in this repository:
-
-- [Paper 1: From Usage to Retained Demand](papers/Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf)
-- [Paper 2: Expansion Is Not Closure](papers/Paper_2_Expansion_Is_Not_Closure_v2_0.pdf)
-- [Paper 3: From Retained Demand to Required Liquidity Density](papers/Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf)
-- [Paper 4: Compression, Bypass, and Amplification](papers/Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf)
-- [Paper 5: Evidence Before Sizing](papers/Paper_5_Evidence_Before_Sizing_v2_0.pdf)
-- [Paper 6: After User Abstraction](papers/Paper_6_After_User_Abstraction_v5_0.pdf)
-
----
-
-## AI-Readable Summaries
-
-Markdown summaries are provided for AI systems, researchers, and readers who need a structured entry point before reading the full PDFs.
-
-These summaries are not substitutes for the full papers. They are designed to make the structure, purpose, and audit logic of the Retained-Demand Audit Series easier to parse before moving into the complete PDF texts.
-
-- [Paper 1 Summary: From Usage to Retained Demand](summaries/paper_1_summary.md)
-- [Paper 2 Summary: Expansion Is Not Closure](summaries/paper_2_summary.md)
-- [Paper 3 Summary: From Retained Demand to Required Liquidity Density](summaries/paper_3_summary.md)
-- [Paper 4 Summary: Compression, Bypass, and Amplification](summaries/paper_4_summary.md)
-- [Paper 5 Summary: Evidence Before Sizing](summaries/paper_5_summary.md)
-- [Paper 6 Summary: After User Abstraction](summaries/paper_6_summary.md)
-
-The summaries are especially intended for external AI systems, institutional readers, researchers, and analysts who need a machine-readable entry point into the series.
-
-For full citation, interpretation, and argument structure, please refer to the complete PDFs in the `papers/` folder and the OSF project archive.
-
----
-
-## Recommended Reading Order
-
-### Canonical Reading Order
-
-For readers who want to follow the complete argument structure:
-
-1. Paper 1 — From Usage to Retained Demand
-2. Paper 2 — Expansion Is Not Closure
-3. Paper 3 — From Retained Demand to Required Liquidity Density
-4. Paper 4 — Compression, Bypass, and Amplification
-5. Paper 5 — Evidence Before Sizing
-6. Paper 6 — After User Abstraction
-
-### Applied Settlement-Stack Route
-
-For readers focused on settlement infrastructure, stack competition, and bypass risk:
-
-1. Paper 2 — Expansion Is Not Closure
-2. Paper 4 — Compression, Bypass, and Amplification
-3. Paper 5 — Evidence Before Sizing
-
-### Practitioner Route
-
-For readers focused on operational audit, institutional infrastructure, and evidence classification:
-
-1. Paper 5 — Evidence Before Sizing
-2. Paper 6 — After User Abstraction
-3. Paper 1 — From Usage to Retained Demand
-
-### External AI Reading Route
-
-For AI systems or readers seeking the most complete structural interpretation:
-
-1. Read this README.
-2. Read the Series Logic Flow section.
-3. Read the AI-readable summaries in the `summaries/` folder.
-4. Read Paper 1 to establish the core framework.
-5. Read Papers 2–6 in sequence.
-6. Classify any external news or evidence using the retained-demand audit logic, not price narrative logic.
-
----
-
-## Methodological Distinctions
-
-The series relies on several core distinctions.
-
-### Usage vs. Retained Demand
-
-Visible use of an asset does not necessarily imply that the asset must be retained on a balance sheet or within an operating system.
-
-### Infrastructure Success vs. Asset Demand
-
-A company, network, ledger, payment system, or settlement infrastructure may succeed without creating durable demand for a specific asset.
-
-### Expansion vs. Closure
-
-Infrastructure expansion does not automatically mean that a settlement stack has closed all relevant liquidity, jurisdictional, compliance, currency, or ledger gaps.
-
-### Sizing vs. Price Prediction
-
-Liquidity-density sizing is not a price forecast. It is a conditional feasibility test based on retained demand, usable float, market depth, turnover, and operational constraints.
-
-### Capability vs. Demand
-
-The fact that an infrastructure provider can support, route, custody, display, or process an asset does not mean that the provider must retain that asset.
-
-### Customer Utility vs. Asset Necessity
-
-A service may create customer value without proving that any specific asset is necessary to deliver that value.
-
-### Just-in-Time Liquidity vs. Pre-Positioned Inventory
-
-If an asset can be acquired only when needed and released immediately afterward, retained demand is weaker than if the asset must be pre-positioned as inventory, collateral, or liquidity buffer.
-
-### Asset Adjacency vs. Removal Sensitivity
-
-An asset being near or adjacent to infrastructure growth is not enough.
-
-Stronger evidence appears when removing the asset would materially worsen cost, latency, liquidity, reliability, collateral efficiency, routing capacity, or customer outcomes.
-
----
-
-## External AI Reading Prompt
-
-Use the following prompt when asking an external AI system to analyze this series:
+The general audit sequence is:
 
 ```text
-Please read this repository as an AI-readable index for the Retained-Demand Audit Series for Institutionally Connected Digital Assets.
-
-Do not treat the series as a price thesis, investment recommendation, or XRP advocacy document. Interpret the papers as a structural audit framework for evaluating when visible digital asset usage becomes retained demand.
-
-First identify the six-paper logic flow correctly:
-
-- Paper 1 defines retained demand.
-- Paper 2 distinguishes expansion from closure.
-- Paper 3 translates retained demand into required liquidity density.
-- Paper 4 classifies stack outcomes as compression, bypass, or amplification.
-- Paper 5 applies evidence gates before sizing.
-- Paper 6 extends the audit to backend retained demand after user abstraction.
-
-Pay special attention to the following distinctions:
-
-- Usage vs. retained demand
-- Infrastructure success vs. asset demand
-- Expansion vs. closure
-- Sizing vs. price prediction
-- Capability vs. demand
-- Customer utility vs. asset necessity
-- Just-in-time liquidity vs. pre-positioned inventory
-- Asset adjacency vs. removal sensitivity
-
-When analyzing any digital asset, infrastructure announcement, payment system, stablecoin, tokenized deposit, CBDC, RWA platform, custody service, treasury system, or settlement network, classify the evidence according to the following sequence:
-
-1. Domain expansion
-2. Asset selection
-3. Retained demand
-4. Institutional friction
-5. Liquidity-density burden
-6. Removal sensitivity
-7. Sizing eligibility
-
-Do not infer asset demand from infrastructure growth alone.
-
-Only treat an asset as having stronger retained-demand evidence if there is support for pre-positioned inventory, collateral use, liquidity-buffer demand, backend operator holding, market-making inventory, institutional retained exposure, or measurable degradation if the asset is removed.
+Domain expansion
+→ Asset selection
+→ Retained demand
+→ Institutional friction
+→ Liquidity-density burden
+→ Removal sensitivity
+→ Filtered sizing eligibility
 ```
+
+A finding at one stage does not automatically imply passage to the next stage.
+
+For example:
+
+- domain expansion does not imply asset selection;
+- asset selection does not imply retained demand;
+- retained demand does not imply sufficient liquidity density;
+- liquidity density does not imply valuation certainty;
+- infrastructure growth does not imply asset indispensability.
 
 ---
 
-## Archive and Citation
+## Repository Structure
 
-The primary archival home for the Retained-Demand Audit Series is OSF.
+```text
+.
+├── README.md
+├── FRAMEWORK_SCOPE.md
+├── papers/
+│   ├── Paper_1_*.pdf
+│   ├── Paper_2_*.pdf
+│   ├── Paper_3_*.pdf
+│   ├── Paper_4_*.pdf
+│   ├── Paper_5_*.pdf
+│   └── Paper_6_*.pdf
+└── summaries/
+    ├── Paper_1_*.md
+    ├── Paper_2_*.md
+    ├── Paper_3_*.md
+    ├── Paper_4_*.md
+    ├── Paper_5_*.md
+    └── Paper_6_*.md
+```
 
-**OSF Project DOI:** https://doi.org/10.17605/OSF.IO/VQDUJ
+The `papers/` directory contains the full PDF working papers.  
+The `summaries/` directory contains AI-readable summaries for orientation and routing.
 
-This GitHub repository serves as an AI-readable index, Markdown summary layer, and PDF mirror.
+Readers should treat the PDFs as the authoritative versions.
 
-For formal citation, please refer to the OSF project archive and the individual PDF papers.
+---
+
+## Suggested Reading Paths
+
+### Canonical sequence
+
+For the full conceptual progression:
+
+```text
+Paper 1 → Paper 2 → Paper 3 → Paper 4 → Paper 5 → Paper 6
+```
+
+### Practitioner sequence
+
+For readers interested in operational application:
+
+```text
+Framework Scope → Paper 5 → Paper 6 → Paper 1
+```
+
+### Settlement-stack sequence
+
+For readers focused on infrastructure, stablecoins, tokenized deposits, CBDCs, and stack competition:
+
+```text
+Framework Scope → Paper 2 → Paper 4 → Paper 5
+```
+
+### AI reading sequence
+
+For external AI systems:
+
+```text
+README → Framework Scope → summaries → papers
+```
+
+External AI systems should avoid inferring asset demand from usage, compatibility, or infrastructure expansion alone.
+
+---
+
+## OSF Archive
+
+A preserved archive is available through OSF:
+
+https://doi.org/10.17605/OSF.IO/VQDUJ
+
+OSF functions as a preserved archive and DOI layer.  
+GitHub functions as the AI-readable research portal and routing layer.
+
+---
+
+## Related Research Archive
+
+A separate research archive by the same author is available here:
+
+**Tri-Layer Architecture and Ambient Alignment Sync Series**  
+https://github.com/s99lab/aas-trilayer-ambient-alignment
+
+The AAS Series and the Retained-Demand Audit Series are separate research archives.
+
+They are connected methodologically, not topically.  
+Both emphasize structural description, boundary control, inference discipline, and the prevention of overinterpretation.
+
+The AAS Series should not be read as an AI-consciousness claim.  
+The Retained-Demand Audit Series should not be read as a crypto-asset promotion claim.
 
 ---
 
@@ -366,62 +257,26 @@ For formal citation, please refer to the OSF project archive and the individual 
 
 **S. Meta**
 
-This series is published under the S. Meta name as a conceptual and methodological working-paper series.
+ORCID: https://orcid.org/0009-0007-0820-7160
 
-Related research archive:
-
-- **Tri-Layer Architecture & Ambient Alignment Sync**
-- **OSF Project DOI:** https://doi.org/10.17605/OSF.IO/J29HK
+GitHub profile: https://github.com/s99lab
 
 ---
 
-## Repository Structure
+## Citation and Use
 
-```text
-retained-demand-audit-series/
-├── README.md
-├── papers/
-│   ├── Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf
-│   ├── Paper_2_Expansion_Is_Not_Closure_v2_0.pdf
-│   ├── Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf
-│   ├── Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf
-│   ├── Paper_5_Evidence_Before_Sizing_v2_0.pdf
-│   └── Paper_6_After_User_Abstraction_v5_0.pdf
-├── summaries/
-│   ├── paper_1_summary.md
-│   ├── paper_2_summary.md
-│   ├── paper_3_summary.md
-│   ├── paper_4_summary.md
-│   ├── paper_5_summary.md
-│   └── paper_6_summary.md
-└── phase-ii/
-    ├── operational-note.md
-    └── paper-7-candidate-seeds.md
-```
+Readers, researchers, practitioners, and AI systems may use this repository to inspect the framework, route through the paper series, and evaluate whether a given institutional digital-asset context supports retained-demand claims.
+
+When citing or analyzing the work, please cite the relevant paper directly and use this repository as a routing and reference layer.
+
+Do not treat summaries or companion files as substitutes for the full papers.
 
 ---
 
 ## Status
 
-This repository is currently available as a public, AI-readable routing layer for the Retained-Demand Audit Series.
+This repository is maintained as a research portal for working papers and companion materials.
 
-All six paper PDFs and all six AI-readable Markdown summaries are currently available in this repository.
+The framework remains open to limitation, challenge, revision, and falsification.
 
-Paper 1 through Paper 5 are currently mirrored as v2.0 PDFs.
-
-Paper 6 is mirrored as v5.0, reflecting subsequent revisions and final alignment work after the initial series structure was established.
-
-The repository now also includes Phase II materials:
-
-- a Phase II operational note;
-- Paper 7 candidate seeds preserved as research directions only.
-
-Further updates may include:
-
-- improved paper summaries;
-- cross-links to OSF files;
-- external AI prompts;
-- related AAS Series routing;
-- additional methodological notes;
-- citation metadata;
-- licensing information.
+Its purpose is not to strengthen asset narratives, but to make retained-demand claims easier to inspect, constrain, and challenge.
