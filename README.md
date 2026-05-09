@@ -41,6 +41,9 @@ This companion file clarifies what the framework does and does not claim, why XR
 
 ## Phase II Materials
 
+- [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)  
+  A Phase II design log on backend retained demand after user abstraction. It explores JIT sourcing versus pre-positioned inventory, operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence. This is not a Paper 7 draft.
+
 After Paper 6, the series enters a Phase II operational-audit layer.
 
 The Phase II materials do not launch a new paper. They clarify how the completed six-paper framework should be operated when assessing timing, institutional preconditions, non-selection evidence, customer utility, asset necessity, operator-layer cost compression, and future research seeds.
