@@ -41,13 +41,13 @@ This companion file clarifies what the framework does and does not claim, why XR
 
 ## Phase II Materials
 
-- [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)  
-  A Phase II design log on backend retained demand after user abstraction. It explores JIT sourcing versus pre-positioned inventory, operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence. This is not a Paper 7 draft.
-
 After Paper 6, the series enters a Phase II operational-audit layer.
 
 The Phase II materials do not launch a new paper. They clarify how the completed six-paper framework should be operated when assessing timing, institutional preconditions, non-selection evidence, customer utility, asset necessity, operator-layer cost compression, and future research seeds.
 
+- [Phase II Materials Index](phase-ii/README.md)
+- [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)  
+  A Phase II design log on backend retained demand after user abstraction. It explores JIT sourcing versus pre-positioned inventory, operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence. This is not a Paper 7 draft.
 - [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](phase-ii/operational-note.md)
 - [Paper 7 Candidate Seeds: Post-Paper-6 / Phase II Research Extensions](phase-ii/paper-7-candidate-seeds.md)
 
@@ -202,13 +202,13 @@ For example:
 │   ├── paper_5_summary.md
 │   └── paper_6_summary.md
 └── phase-ii/
+    ├── README.md
     ├── operational-note.md
-    └── paper-7-candidate-seeds.md
+    ├── paper-7-candidate-seeds.md
+    └── paper-7-candidate-a-design-log-v0.1.pdf
 ```
 
-The `papers/` directory contains the full PDF working papers.
-The `summaries/` directory contains AI-readable summaries for orientation and routing.
-The `phase-ii/` directory contains companion materials for applying the completed six-paper framework after Paper 6.
+The `papers/` directory contains the full PDF working papers. The `summaries/` directory contains AI-readable summaries for orientation and routing. The `phase-ii/` directory contains companion materials for applying the completed six-paper framework after Paper 6.
 
 Readers should treat the PDFs as the authoritative versions.
 
@@ -240,6 +240,14 @@ For readers focused on infrastructure, stablecoins, tokenized deposits, CBDCs, a
 Framework Scope → Paper 2 → Paper 4 → Paper 5 → Phase II Operational Note
 ```
 
+### Phase II sequence
+
+For readers focused on post-Paper-6 backend retained-demand design work:
+
+```text
+Framework Scope → Paper 6 → Phase II Materials Index → Candidate A Design Log
+```
+
 ### AI reading sequence
 
 For external AI systems:
@@ -256,7 +264,9 @@ External AI systems should avoid inferring asset demand from usage, compatibilit
 
 A preserved archive is available through OSF:
 
-https://doi.org/10.17605/OSF.IO/VQDUJ
+- Main project DOI: https://doi.org/10.17605/OSF.IO/VQDUJ
+- Main project page: https://osf.io/vqduj/
+- Phase II Materials component: https://osf.io/78at/
 
 OSF functions as a preserved archive and DOI layer. GitHub functions as the AI-readable research portal and routing layer.
 
@@ -266,13 +276,20 @@ OSF functions as a preserved archive and DOI layer. GitHub functions as the AI-r
 
 A separate research archive by the same author is available here:
 
-**Tri-Layer Architecture and Ambient Alignment Sync Series**
+**Tri-Layer Architecture and Ambient Alignment Sync Series**  
 https://github.com/s99lab/aas-trilayer-ambient-alignment
 
 The AAS Series and the Retained-Demand Audit Series are separate research archives. They are connected methodologically, not topically. Both emphasize structural description, boundary control, inference discipline, and the prevention of overinterpretation.
 
-The AAS Series should not be read as an AI-consciousness claim.
-The Retained-Demand Audit Series should not be read as a crypto-asset promotion claim.
+The AAS Series should not be read as an AI-consciousness claim. The Retained-Demand Audit Series should not be read as a crypto-asset promotion claim.
+
+---
+
+## Research Portal
+
+A lightweight public entrance for S. Meta research archives is available here:
+
+https://s99lab.github.io/
 
 ---
 
@@ -280,7 +297,7 @@ The Retained-Demand Audit Series should not be read as a crypto-asset promotion 
 
 **S. Meta**
 
-ORCID: https://orcid.org/0009-0007-0820-7160
+ORCID: https://orcid.org/0009-0007-0820-7160  
 GitHub profile: https://github.com/s99lab
 
 ---
