@@ -2,9 +2,23 @@
 
 This folder contains post-Paper-6 companion materials for the **Retained-Demand Audit Series**.
 
-These materials do **not** launch Paper 7. They preserve operational notes, candidate research seeds, and design logs for future work on backend retained demand, operator-layer cost compression, inventory formation, and non-selection evidence.
+These materials do **not** launch Paper 7.
 
-The materials should be read as research-continuity and audit-design documents, not as full paper drafts, investment theses, price forecasts, or claims that any specific asset currently satisfies retained-demand conditions.
+They preserve operational notes, candidate research seeds, and design logs for future work on:
+
+- backend retained demand;
+- operator-layer cost compression;
+- inventory formation;
+- non-selection evidence.
+
+The materials should be read as research-continuity and audit-design documents.
+
+They should not be read as:
+
+- full paper drafts;
+- investment theses;
+- price forecasts;
+- claims that any specific asset currently satisfies retained-demand conditions.
 
 ---
 
@@ -14,7 +28,16 @@ The materials should be read as research-continuity and audit-design documents, 
 
 - [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](operational-note.md)
 
-This note clarifies how the completed six-paper framework should be operated after Paper 6 when assessing timing delays, institutional preconditions, non-selection evidence, customer utility, asset necessity, and operator-layer cost compression.
+This note clarifies how the completed six-paper framework should be operated after Paper 6.
+
+It is used when assessing:
+
+- timing delays;
+- institutional preconditions;
+- non-selection evidence;
+- customer utility;
+- asset necessity;
+- operator-layer cost compression.
 
 ---
 
@@ -22,7 +45,9 @@ This note clarifies how the completed six-paper framework should be operated aft
 
 - [Paper 7 Candidate Seeds: Post-Paper-6 / Phase II Research Extensions](paper-7-candidate-seeds.md)
 
-This file preserves candidate research directions after Paper 6. It does not launch Paper 7.
+This file preserves candidate research directions after Paper 6.
+
+It does not launch Paper 7.
 
 ---
 
@@ -41,8 +66,10 @@ It focuses on:
 - non-selection evidence;
 - conditions under which the XRP retained-demand hypothesis should be downgraded.
 
-This is **not** a Paper 7 draft.  
-Paper 7 has **not** been launched.  
+This is **not** a Paper 7 draft.
+
+Paper 7 has **not** been launched.
+
 XRP is used only as a stress-test case.
 
 ---
