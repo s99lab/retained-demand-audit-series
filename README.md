@@ -4,28 +4,46 @@
 
 This repository preserves the **Retained-Demand Audit Series for Institutionally Connected Digital Assets** by S. Meta.
 
-The series develops a structural audit framework for evaluating whether institutionally connected digital assets generate retained demand, rather than merely showing visible usage, infrastructure expansion, asset adjacency, or speculative attention.
+The series develops a structural audit framework for evaluating whether institutionally connected digital assets generate retained demand.
 
-The papers are intended as working papers and primary-source materials. This repository is designed to make the series easier to read, cite, inspect, and route through external AI systems without replacing the papers themselves.
+The framework does not treat visible usage, infrastructure expansion, asset adjacency, or speculative attention as sufficient evidence of asset-level demand.
+
+The papers are intended as working papers and primary-source materials.
+
+This repository is designed to make the series easier to read, cite, inspect, and route through external AI systems.
+
+The repository does not replace the papers themselves.
 
 ---
 
 ## Repository Purpose
 
-This repository is not only a PDF archive. It is an AI-readable research portal designed to help readers move from:
+This repository is not only a PDF archive.
 
-1. repository-level orientation,
-2. paper-level summaries,
-3. full PDF papers,
-4. preserved OSF archive materials.
+It is an AI-readable research portal designed to help readers move from:
+
+1. repository-level orientation;
+2. paper-level summaries;
+3. full PDF papers;
+4. preserved OSF archive materials;
+5. Phase II companion materials.
 
 The intended reading path is:
 
 ```text
-README → framework scope → summaries → papers → OSF DOI
+README
+→ framework scope
+→ summaries
+→ papers
+→ Phase II materials
+→ OSF DOI
 ```
 
-The papers remain the primary source. Companion files clarify scope, boundaries, Phase II operating logic, and evidence-gating logic without replacing or revising the papers.
+The papers remain the primary source.
+
+Companion files clarify scope, boundaries, Phase II operating logic, and evidence-gating logic.
+
+They do not replace or revise the papers.
 
 ---
 
@@ -35,7 +53,13 @@ Before applying the framework, readers should review the scope and boundary docu
 
 - [Framework Scope and Boundaries](FRAMEWORK_SCOPE.md)
 
-This companion file clarifies what the framework does and does not claim, why XRP appears as a motivating and stress-test case, how the series differs from adjacent approaches, and how to avoid overreading infrastructure progress as asset-level demand.
+This companion file clarifies:
+
+- what the framework does claim;
+- what the framework does not claim;
+- why XRP appears as a motivating and stress-test case;
+- how the series differs from adjacent approaches;
+- how to avoid overreading infrastructure progress as asset-level demand.
 
 ---
 
@@ -43,15 +67,39 @@ This companion file clarifies what the framework does and does not claim, why XR
 
 After Paper 6, the series enters a Phase II operational-audit layer.
 
-The Phase II materials do not launch a new paper. They clarify how the completed six-paper framework should be operated when assessing timing, institutional preconditions, non-selection evidence, customer utility, asset necessity, operator-layer cost compression, and future research seeds.
+The Phase II materials do not launch a new paper.
+
+They clarify how the completed six-paper framework should be operated when assessing:
+
+- timing;
+- institutional preconditions;
+- non-selection evidence;
+- customer utility;
+- asset necessity;
+- operator-layer cost compression;
+- future research seeds.
+
+Phase II materials:
 
 - [Phase II Materials Index](phase-ii/README.md)
-- [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)  
-  A Phase II design log on backend retained demand after user abstraction. It explores JIT sourcing versus pre-positioned inventory, operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence. This is not a Paper 7 draft.
+
+- [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)
+
+  A Phase II design log on backend retained demand after user abstraction.
+
+  It explores JIT sourcing versus pre-positioned inventory.
+
+  It also explores operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence.
+
+  This is not a Paper 7 draft.
+
 - [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](phase-ii/operational-note.md)
+
 - [Paper 7 Candidate Seeds: Post-Paper-6 / Phase II Research Extensions](phase-ii/paper-7-candidate-seeds.md)
 
-These files should be read as companion materials, not as replacements for Papers 1–6.
+These files should be read as companion materials.
+
+They should not be read as replacements for Papers 1-6.
 
 ---
 
@@ -73,7 +121,13 @@ Across the papers, the series distinguishes:
 - just-in-time liquidity from pre-positioned inventory;
 - visible adoption from removal-sensitive dependence.
 
-The framework is designed to support both positive and negative findings. A finding of "not enough evidence," "not retained demand," or "not yet eligible for sizing" is a valid outcome.
+The framework is designed to support both positive and negative findings.
+
+A finding of "not enough evidence" is a valid outcome.
+
+A finding of "not retained demand" is a valid outcome.
+
+A finding of "not yet eligible for sizing" is a valid outcome.
 
 ---
 
@@ -89,9 +143,22 @@ This series is not:
 - a claim that infrastructure expansion automatically creates asset demand;
 - a claim that usage automatically becomes retained demand;
 - a universal theory of digital assets;
-- a substitute for empirical market data, legal analysis, institutional disclosure, or peer review.
+- a substitute for empirical market data;
+- a substitute for legal analysis;
+- a substitute for institutional disclosure;
+- a substitute for peer review.
 
-XRP appears in the series as a motivating and stress-test case because it sits near several institutional themes at once, including settlement, liquidity bridging, stablecoin adjacency, tokenized asset infrastructure, and institutional market structure.
+XRP appears in the series as a motivating and stress-test case.
+
+It appears because it sits near several institutional themes at once.
+
+These themes include:
+
+- settlement;
+- liquidity bridging;
+- stablecoin adjacency;
+- tokenized asset infrastructure;
+- institutional market structure.
 
 The framework does not assume that these themes converge into XRP-specific retained demand.
 
@@ -103,7 +170,16 @@ The framework does not assume that these themes converge into XRP-specific retai
 
 **From Usage to Retained Demand: A Structural Audit Framework for Institutionally Connected Digital Assets**
 
-Introduces the distinction between visible usage and retained demand. Retained demand is decomposed into inventory demand, collateral demand, liquidity-buffer demand, and waiting liquidity.
+Introduces the distinction between visible usage and retained demand.
+
+Retained demand is decomposed into:
+
+- inventory demand;
+- collateral demand;
+- liquidity-buffer demand;
+- waiting liquidity.
+
+Links:
 
 - [Summary](summaries/paper_1_summary.md)
 - [PDF](papers/Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf)
@@ -112,7 +188,20 @@ Introduces the distinction between visible usage and retained demand. Retained d
 
 **Expansion Is Not Closure: Settlement Stack Competition and the Conditional Relevance of External Connective Assets**
 
-Distinguishes infrastructure expansion from settlement-stack closure. The paper examines whether stablecoins, tokenized deposits, CBDCs, internal treasury rails, omnibus structures, orchestration layers, or other mechanisms compress the need for external connective assets.
+Distinguishes infrastructure expansion from settlement-stack closure.
+
+The paper examines whether other mechanisms compress the need for external connective assets.
+
+These mechanisms include:
+
+- stablecoins;
+- tokenized deposits;
+- CBDCs;
+- internal treasury rails;
+- omnibus structures;
+- orchestration layers.
+
+Links:
 
 - [Summary](summaries/paper_2_summary.md)
 - [PDF](papers/Paper_2_Expansion_Is_Not_Closure_v2_0.pdf)
@@ -121,7 +210,13 @@ Distinguishes infrastructure expansion from settlement-stack closure. The paper 
 
 **From Retained Demand to Required Liquidity Density: A Conditional Sizing Framework for Institutionally Connected Digital Assets**
 
-Translates retained-demand assumptions into required liquidity-density constraints. The paper treats sizing as a conditional liquidity-feasibility exercise rather than a price thesis.
+Translates retained-demand assumptions into required liquidity-density constraints.
+
+The paper treats sizing as a conditional liquidity-feasibility exercise.
+
+It does not treat sizing as a price thesis.
+
+Links:
 
 - [Summary](summaries/paper_3_summary.md)
 - [PDF](papers/Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf)
@@ -130,7 +225,13 @@ Translates retained-demand assumptions into required liquidity-density constrain
 
 **Compression, Bypass, and Amplification: An Applied Stack-Audit Framework for Institutionally Connected Digital Assets**
 
-Applies the framework to stack-level outcomes. Infrastructure growth may compress, bypass, or amplify asset demand depending on how settlement, liquidity, collateral, and routing functions are actually implemented.
+Applies the framework to stack-level outcomes.
+
+Infrastructure growth may compress, bypass, or amplify asset demand.
+
+The outcome depends on how settlement, liquidity, collateral, and routing functions are actually implemented.
+
+Links:
 
 - [Summary](summaries/paper_4_summary.md)
 - [PDF](papers/Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf)
@@ -139,7 +240,21 @@ Applies the framework to stack-level outcomes. Infrastructure growth may compres
 
 **Evidence Before Sizing: An Operational Audit Protocol for XRP-Adjacent Institutional Infrastructure**
 
-Introduces an evidence-gated audit protocol. Sizing is not rejected; sizing is gated. The paper defines the sequence of retained demand, asset selection, institutional friction, liquidity-density burden, and removal sensitivity.
+Introduces an evidence-gated audit protocol.
+
+Sizing is not rejected.
+
+Sizing is gated.
+
+The paper defines the sequence of:
+
+- retained demand;
+- asset selection;
+- institutional friction;
+- liquidity-density burden;
+- removal sensitivity.
+
+Links:
 
 - [Summary](summaries/paper_5_summary.md)
 - [PDF](papers/Paper_5_Evidence_Before_Sizing_v2_0.pdf)
@@ -148,7 +263,18 @@ Introduces an evidence-gated audit protocol. Sizing is not rejected; sizing is g
 
 **After User Abstraction: Backend Retained Demand and Just-in-Time Liquidity in Institutionally Connected Digital Assets**
 
-Extends the framework to backend retained demand. As user-facing token exposure becomes abstracted away, the paper asks whether retained demand appears on the balance sheets or operational systems of wallets, custodians, market makers, paymasters, treasury operators, or settlement providers.
+Extends the framework to backend retained demand.
+
+As user-facing token exposure becomes abstracted away, the paper asks whether retained demand appears on the balance sheets or operational systems of:
+
+- wallets;
+- custodians;
+- market makers;
+- paymasters;
+- treasury operators;
+- settlement providers.
+
+Links:
 
 - [Summary](summaries/paper_6_summary.md)
 - [PDF](papers/Paper_6_After_User_Abstraction_v5_0.pdf)
@@ -208,7 +334,11 @@ For example:
     └── paper-7-candidate-a-design-log-v0.1.pdf
 ```
 
-The `papers/` directory contains the full PDF working papers. The `summaries/` directory contains AI-readable summaries for orientation and routing. The `phase-ii/` directory contains companion materials for applying the completed six-paper framework after Paper 6.
+The `papers/` directory contains the full PDF working papers.
+
+The `summaries/` directory contains AI-readable summaries for orientation and routing.
+
+The `phase-ii/` directory contains companion materials for applying the completed six-paper framework after Paper 6.
 
 Readers should treat the PDFs as the authoritative versions.
 
@@ -221,7 +351,12 @@ Readers should treat the PDFs as the authoritative versions.
 For the full conceptual progression:
 
 ```text
-Paper 1 → Paper 2 → Paper 3 → Paper 4 → Paper 5 → Paper 6
+Paper 1
+→ Paper 2
+→ Paper 3
+→ Paper 4
+→ Paper 5
+→ Paper 6
 ```
 
 ### Practitioner sequence
@@ -229,7 +364,11 @@ Paper 1 → Paper 2 → Paper 3 → Paper 4 → Paper 5 → Paper 6
 For readers interested in operational application:
 
 ```text
-Framework Scope → Paper 5 → Paper 6 → Phase II Operational Note → Paper 1
+Framework Scope
+→ Paper 5
+→ Paper 6
+→ Phase II Operational Note
+→ Paper 1
 ```
 
 ### Settlement-stack sequence
@@ -237,7 +376,11 @@ Framework Scope → Paper 5 → Paper 6 → Phase II Operational Note → Paper 
 For readers focused on infrastructure, stablecoins, tokenized deposits, CBDCs, and stack competition:
 
 ```text
-Framework Scope → Paper 2 → Paper 4 → Paper 5 → Phase II Operational Note
+Framework Scope
+→ Paper 2
+→ Paper 4
+→ Paper 5
+→ Phase II Operational Note
 ```
 
 ### Phase II sequence
@@ -245,7 +388,10 @@ Framework Scope → Paper 2 → Paper 4 → Paper 5 → Phase II Operational Not
 For readers focused on post-Paper-6 backend retained-demand design work:
 
 ```text
-Framework Scope → Paper 6 → Phase II Materials Index → Candidate A Design Log
+Framework Scope
+→ Paper 6
+→ Phase II Materials Index
+→ Candidate A Design Log
 ```
 
 ### AI reading sequence
@@ -253,7 +399,11 @@ Framework Scope → Paper 6 → Phase II Materials Index → Candidate A Design 
 For external AI systems:
 
 ```text
-README → Framework Scope → summaries → papers → Phase II materials
+README
+→ Framework Scope
+→ summaries
+→ papers
+→ Phase II materials
 ```
 
 External AI systems should avoid inferring asset demand from usage, compatibility, customer utility, or infrastructure expansion alone.
@@ -268,7 +418,9 @@ A preserved archive is available through OSF:
 - Main project page: https://osf.io/vqduj/
 - Phase II Materials component: https://osf.io/78at/
 
-OSF functions as a preserved archive and DOI layer. GitHub functions as the AI-readable research portal and routing layer.
+OSF functions as a preserved archive and DOI layer.
+
+GitHub functions as the AI-readable research portal and routing layer.
 
 ---
 
@@ -276,12 +428,19 @@ OSF functions as a preserved archive and DOI layer. GitHub functions as the AI-r
 
 A separate research archive by the same author is available here:
 
-**Tri-Layer Architecture and Ambient Alignment Sync Series**  
+**Tri-Layer Architecture and Ambient Alignment Sync Series**
+
 https://github.com/s99lab/aas-trilayer-ambient-alignment
 
-The AAS Series and the Retained-Demand Audit Series are separate research archives. They are connected methodologically, not topically. Both emphasize structural description, boundary control, inference discipline, and the prevention of overinterpretation.
+The AAS Series and the Retained-Demand Audit Series are separate research archives.
 
-The AAS Series should not be read as an AI-consciousness claim. The Retained-Demand Audit Series should not be read as a crypto-asset promotion claim.
+They are connected methodologically, not topically.
+
+Both emphasize structural description, boundary control, inference discipline, and the prevention of overinterpretation.
+
+The AAS Series should not be read as an AI-consciousness claim.
+
+The Retained-Demand Audit Series should not be read as a crypto-asset promotion claim.
 
 ---
 
@@ -297,16 +456,23 @@ https://s99lab.github.io/
 
 **S. Meta**
 
-ORCID: https://orcid.org/0009-0007-0820-7160  
+ORCID: https://orcid.org/0009-0007-0820-7160
+
 GitHub profile: https://github.com/s99lab
 
 ---
 
 ## Citation and Use
 
-Readers, researchers, practitioners, and AI systems may use this repository to inspect the framework, route through the paper series, and evaluate whether a given institutional digital-asset context supports retained-demand claims.
+Readers, researchers, practitioners, and AI systems may use this repository to inspect the framework.
 
-When citing or analyzing the work, please cite the relevant paper directly and use this repository as a routing and reference layer.
+They may use it to route through the paper series.
+
+They may use it to evaluate whether a given institutional digital-asset context supports retained-demand claims.
+
+When citing or analyzing the work, please cite the relevant paper directly.
+
+Use this repository as a routing and reference layer.
 
 Do not treat summaries, framework scope files, or Phase II companion materials as substitutes for the full papers.
 
@@ -316,4 +482,8 @@ Do not treat summaries, framework scope files, or Phase II companion materials a
 
 This repository is maintained as a research portal for working papers and companion materials.
 
-The framework remains open to limitation, challenge, revision, and falsification. Its purpose is not to strengthen asset narratives, but to make retained-demand claims easier to inspect, constrain, and challenge.
+The framework remains open to limitation, challenge, revision, and falsification.
+
+Its purpose is not to strengthen asset narratives.
+
+Its purpose is to make retained-demand claims easier to inspect, constrain, and challenge.
