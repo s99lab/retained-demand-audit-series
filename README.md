@@ -31,12 +31,7 @@ It is an AI-readable research portal designed to help readers move from:
 The intended reading path is:
 
 ```text
-README
-→ framework scope
-→ summaries
-→ papers
-→ Phase II materials
-→ OSF DOI
+README → framework scope → summaries → papers → Phase II materials → OSF DOI
 ```
 
 The papers remain the primary source.
@@ -82,20 +77,25 @@ They clarify how the completed six-paper framework should be operated when asses
 Phase II materials:
 
 - [Phase II Materials Index](phase-ii/README.md)
-
 - [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)
-
-  A Phase II design log on backend retained demand after user abstraction.
-
-  It explores JIT sourcing versus pre-positioned inventory.
-
-  It also explores operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence.
-
-  This is not a Paper 7 draft.
-
 - [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](phase-ii/operational-note.md)
-
 - [Paper 7 Candidate Seeds: Post-Paper-6 / Phase II Research Extensions](phase-ii/paper-7-candidate-seeds.md)
+
+Phase II Materials OSF DOI:
+
+<https://doi.org/10.17605/OSF.IO/78AT>
+
+OSF Phase II component:
+
+<https://osf.io/78at/>
+
+Paper 7 Candidate A Design Log v0.1 is a Phase II design log on backend retained demand after user abstraction.
+
+It explores JIT sourcing versus pre-positioned inventory.
+
+It also explores operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence.
+
+This is not a Paper 7 draft.
 
 These files should be read as companion materials.
 
@@ -351,12 +351,7 @@ Readers should treat the PDFs as the authoritative versions.
 For the full conceptual progression:
 
 ```text
-Paper 1
-→ Paper 2
-→ Paper 3
-→ Paper 4
-→ Paper 5
-→ Paper 6
+Paper 1 → Paper 2 → Paper 3 → Paper 4 → Paper 5 → Paper 6
 ```
 
 ### Practitioner sequence
@@ -364,11 +359,7 @@ Paper 1
 For readers interested in operational application:
 
 ```text
-Framework Scope
-→ Paper 5
-→ Paper 6
-→ Phase II Operational Note
-→ Paper 1
+Framework Scope → Paper 5 → Paper 6 → Phase II Operational Note → Paper 1
 ```
 
 ### Settlement-stack sequence
@@ -376,11 +367,7 @@ Framework Scope
 For readers focused on infrastructure, stablecoins, tokenized deposits, CBDCs, and stack competition:
 
 ```text
-Framework Scope
-→ Paper 2
-→ Paper 4
-→ Paper 5
-→ Phase II Operational Note
+Framework Scope → Paper 2 → Paper 4 → Paper 5 → Phase II Operational Note
 ```
 
 ### Phase II sequence
@@ -388,10 +375,7 @@ Framework Scope
 For readers focused on post-Paper-6 backend retained-demand design work:
 
 ```text
-Framework Scope
-→ Paper 6
-→ Phase II Materials Index
-→ Candidate A Design Log
+Framework Scope → Paper 6 → Phase II Materials Index → Candidate A Design Log
 ```
 
 ### AI reading sequence
@@ -399,11 +383,7 @@ Framework Scope
 For external AI systems:
 
 ```text
-README
-→ Framework Scope
-→ summaries
-→ papers
-→ Phase II materials
+README → Framework Scope → summaries → papers → Phase II materials
 ```
 
 External AI systems should avoid inferring asset demand from usage, compatibility, customer utility, or infrastructure expansion alone.
@@ -414,9 +394,10 @@ External AI systems should avoid inferring asset demand from usage, compatibilit
 
 A preserved archive is available through OSF:
 
-- Main project DOI: https://doi.org/10.17605/OSF.IO/VQDUJ
-- Main project page: https://osf.io/vqduj/
-- Phase II Materials component: https://osf.io/78at/
+- Main project DOI: <https://doi.org/10.17605/OSF.IO/VQDUJ>
+- Main project page: <https://osf.io/vqduj/>
+- Phase II Materials DOI: <https://doi.org/10.17605/OSF.IO/78AT>
+- Phase II Materials component: <https://osf.io/78at/>
 
 OSF functions as a preserved archive and DOI layer.
 
@@ -430,7 +411,7 @@ A separate research archive by the same author is available here:
 
 **Tri-Layer Architecture and Ambient Alignment Sync Series**
 
-https://github.com/s99lab/aas-trilayer-ambient-alignment
+<https://github.com/s99lab/aas-trilayer-ambient-alignment>
 
 The AAS Series and the Retained-Demand Audit Series are separate research archives.
 
@@ -448,7 +429,7 @@ The Retained-Demand Audit Series should not be read as a crypto-asset promotion 
 
 A lightweight public entrance for S. Meta research archives is available here:
 
-https://s99lab.github.io/
+<https://s99lab.github.io/>
 
 ---
 
@@ -456,9 +437,13 @@ https://s99lab.github.io/
 
 **S. Meta**
 
-ORCID: https://orcid.org/0009-0007-0820-7160
+ORCID:
 
-GitHub profile: https://github.com/s99lab
+<https://orcid.org/0009-0007-0820-7160>
+
+GitHub profile:
+
+<https://github.com/s99lab>
 
 ---
 
