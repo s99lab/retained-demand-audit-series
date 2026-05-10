@@ -87,11 +87,11 @@ The candidate seeds file preserves post-Paper-6 / Phase II research extensions.
 
 Phase II Materials OSF DOI:
 
-<https://doi.org/10.17605/OSF.IO/78AT>
+<https://doi.org/10.17605/OSF.IO/7R8AT>
 
 OSF Phase II component:
 
-<https://osf.io/78at/>
+<https://osf.io/7r8at/>
 
 Paper 7 Candidate A Design Log v0.1 is a Phase II design log on backend retained demand after user abstraction.
 
@@ -400,8 +400,8 @@ A preserved archive is available through OSF:
 
 - Main project DOI: <https://doi.org/10.17605/OSF.IO/VQDUJ>
 - Main project page: <https://osf.io/vqduj/>
-- Phase II Materials DOI: <https://doi.org/10.17605/OSF.IO/78AT>
-- Phase II Materials component: <https://osf.io/78at/>
+- Phase II Materials DOI: <https://doi.org/10.17605/OSF.IO/7R8AT>
+- Phase II Materials component: <https://osf.io/7r8at/>
 
 OSF functions as a preserved archive and DOI layer.
 
