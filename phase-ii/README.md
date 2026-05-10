@@ -80,11 +80,11 @@ It focuses on:
 
 Phase II Materials DOI:
 
-<https://doi.org/10.17605/OSF.IO/78AT>
+<https://doi.org/10.17605/OSF.IO/7R8AT>
 
 Archived OSF component:
 
-<https://osf.io/78at/>
+<https://osf.io/7r8at/>
 
 Parent OSF project DOI:
 
