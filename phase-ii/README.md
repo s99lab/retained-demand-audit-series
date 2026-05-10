@@ -1,5 +1,9 @@
 # Phase II Materials
 
+> **Status:** Phase II companion material.  
+> **This folder does not contain Paper 7.**  
+> The Candidate A Design Log is a **non-normative research design log**, not a Paper 7 draft, not a final argument, and not a retained-demand finding.
+
 This folder contains post-Paper-6 companion materials for the **Retained-Demand Audit Series**.
 
 These materials do **not** launch Paper 7.
@@ -47,7 +51,7 @@ It is used when assessing:
 
 This file preserves candidate research directions after Paper 6.
 
-It does not launch Paper 7.
+It does **not** launch Paper 7.
 
 ---
 
@@ -66,11 +70,9 @@ It focuses on:
 - non-selection evidence;
 - conditions under which the XRP retained-demand hypothesis should be downgraded.
 
-This is **not** a Paper 7 draft.
-
-Paper 7 has **not** been launched.
-
-XRP is used only as a stress-test case.
+> **Important:** This is **not** a Paper 7 draft.  
+> Paper 7 has **not** been launched.  
+> XRP is used only as a stress-test case.
 
 ---
 
@@ -78,11 +80,11 @@ XRP is used only as a stress-test case.
 
 Archived OSF component:
 
-https://osf.io/78at/
+<https://osf.io/78at/>
 
 Parent OSF project DOI:
 
-https://doi.org/10.17605/OSF.IO/VQDUJ
+<https://doi.org/10.17605/OSF.IO/VQDUJ>
 
 ---
 
