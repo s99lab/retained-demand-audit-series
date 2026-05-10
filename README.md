@@ -78,8 +78,12 @@ Phase II materials:
 
 - [Phase II Materials Index](phase-ii/README.md)
 - [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)
-- [Operational Note: Timing, Institutional Preconditions, Non-Selection Evidence, and Operator-Layer Cost Compression](phase-ii/operational-note.md)
-- [Paper 7 Candidate Seeds: Post-Paper-6 / Phase II Research Extensions](phase-ii/paper-7-candidate-seeds.md)
+- [Operational Note](phase-ii/operational-note.md)
+- [Paper 7 Candidate Seeds](phase-ii/paper-7-candidate-seeds.md)
+
+The operational note addresses timing, institutional preconditions, non-selection evidence, and operator-layer cost compression.
+
+The candidate seeds file preserves post-Paper-6 / Phase II research extensions.
 
 Phase II Materials OSF DOI:
 
