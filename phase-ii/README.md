@@ -78,6 +78,10 @@ It focuses on:
 
 ## OSF Archive
 
+Phase II Materials DOI:
+
+<https://doi.org/10.17605/OSF.IO/78AT>
+
 Archived OSF component:
 
 <https://osf.io/78at/>
