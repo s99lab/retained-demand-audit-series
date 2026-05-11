@@ -8,9 +8,7 @@ The series develops a structural audit framework for evaluating whether institut
 
 The framework does not treat visible usage, infrastructure expansion, asset adjacency, or speculative attention as sufficient evidence of asset-level demand.
 
-The papers are intended as working papers and primary-source materials.
-
-This repository is designed to make the series easier to read, cite, inspect, and route through external AI systems.
+The papers are intended as working papers and primary-source materials. This repository is designed to make the series easier to read, cite, inspect, and route through external AI systems.
 
 The repository does not replace the papers themselves.
 
@@ -31,12 +29,15 @@ It is an AI-readable research portal designed to help readers move from:
 The intended reading path is:
 
 ```text
-README → framework scope → summaries → papers → Phase II materials → OSF DOI
+README
+→ framework scope
+→ summaries
+→ papers
+→ Phase II materials
+→ OSF DOI
 ```
 
-The papers remain the primary source.
-
-Companion files clarify scope, boundaries, Phase II operating logic, and evidence-gating logic.
+The papers remain the primary source. Companion files clarify scope, boundaries, Phase II operating logic, and evidence-gating logic.
 
 They do not replace or revise the papers.
 
@@ -62,9 +63,7 @@ This companion file clarifies:
 
 After Paper 6, the series enters a Phase II operational-audit layer.
 
-The Phase II materials do not launch a new paper.
-
-They clarify how the completed six-paper framework should be operated when assessing:
+The Phase II materials do not launch a new paper. They clarify how the completed six-paper framework should be operated when assessing:
 
 - timing;
 - institutional preconditions;
@@ -93,17 +92,11 @@ OSF Phase II component:
 
 <https://osf.io/7r8at/>
 
-Paper 7 Candidate A Design Log v0.1 is a Phase II design log on backend retained demand after user abstraction.
-
-It explores JIT sourcing versus pre-positioned inventory.
-
-It also explores operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence.
+Paper 7 Candidate A Design Log v0.1 is a Phase II design log on backend retained demand after user abstraction. It explores JIT sourcing versus pre-positioned inventory. It also explores operator-layer cost compression, alternative infrastructure maintenance cost, inter-zone liquidity boundaries, and non-selection evidence.
 
 This is not a Paper 7 draft.
 
-These files should be read as companion materials.
-
-They should not be read as replacements for Papers 1-6.
+These files should be read as companion materials. They should not be read as replacements for Papers 1-6.
 
 ---
 
@@ -127,11 +120,7 @@ Across the papers, the series distinguishes:
 
 The framework is designed to support both positive and negative findings.
 
-A finding of "not enough evidence" is a valid outcome.
-
-A finding of "not retained demand" is a valid outcome.
-
-A finding of "not yet eligible for sizing" is a valid outcome.
+A finding of "not enough evidence" is a valid outcome. A finding of "not retained demand" is a valid outcome. A finding of "not yet eligible for sizing" is a valid outcome.
 
 ---
 
@@ -152,11 +141,7 @@ This series is not:
 - a substitute for institutional disclosure;
 - a substitute for peer review.
 
-XRP appears in the series as a motivating and stress-test case.
-
-It appears because it sits near several institutional themes at once.
-
-These themes include:
+XRP appears in the series as a motivating and stress-test case. It appears because it sits near several institutional themes at once. These themes include:
 
 - settlement;
 - liquidity bridging;
@@ -174,9 +159,7 @@ The framework does not assume that these themes converge into XRP-specific retai
 
 **From Usage to Retained Demand: A Structural Audit Framework for Institutionally Connected Digital Assets**
 
-Introduces the distinction between visible usage and retained demand.
-
-Retained demand is decomposed into:
+Introduces the distinction between visible usage and retained demand. Retained demand is decomposed into:
 
 - inventory demand;
 - collateral demand;
@@ -192,9 +175,7 @@ Links:
 
 **Expansion Is Not Closure: Settlement Stack Competition and the Conditional Relevance of External Connective Assets**
 
-Distinguishes infrastructure expansion from settlement-stack closure.
-
-The paper examines whether other mechanisms compress the need for external connective assets.
+Distinguishes infrastructure expansion from settlement-stack closure. The paper examines whether other mechanisms compress the need for external connective assets.
 
 These mechanisms include:
 
@@ -216,9 +197,7 @@ Links:
 
 Translates retained-demand assumptions into required liquidity-density constraints.
 
-The paper treats sizing as a conditional liquidity-feasibility exercise.
-
-It does not treat sizing as a price thesis.
+The paper treats sizing as a conditional liquidity-feasibility exercise. It does not treat sizing as a price thesis.
 
 Links:
 
@@ -229,9 +208,7 @@ Links:
 
 **Compression, Bypass, and Amplification: An Applied Stack-Audit Framework for Institutionally Connected Digital Assets**
 
-Applies the framework to stack-level outcomes.
-
-Infrastructure growth may compress, bypass, or amplify asset demand.
+Applies the framework to stack-level outcomes. Infrastructure growth may compress, bypass, or amplify asset demand.
 
 The outcome depends on how settlement, liquidity, collateral, and routing functions are actually implemented.
 
@@ -246,9 +223,7 @@ Links:
 
 Introduces an evidence-gated audit protocol.
 
-Sizing is not rejected.
-
-Sizing is gated.
+Sizing is not rejected. Sizing is gated.
 
 The paper defines the sequence of:
 
@@ -314,16 +289,18 @@ For example:
 ## Repository Structure
 
 ```text
-.
+retained-demand-audit-series/
 ├── README.md
 ├── FRAMEWORK_SCOPE.md
+├── LICENSE.md
+├── CITATION.cff
 ├── papers/
-│   ├── Paper_1_*.pdf
-│   ├── Paper_2_*.pdf
-│   ├── Paper_3_*.pdf
-│   ├── Paper_4_*.pdf
-│   ├── Paper_5_*.pdf
-│   └── Paper_6_*.pdf
+│   ├── Paper_1_From_Usage_to_Retained_Demand_v2_0.pdf
+│   ├── Paper_2_Expansion_Is_Not_Closure_v2_0.pdf
+│   ├── Paper_3_From_Retained_Demand_to_Required_Liquidity_Density_v2_0.pdf
+│   ├── Paper_4_Compression_Bypass_and_Amplification_v2_0.pdf
+│   ├── Paper_5_Evidence_Before_Sizing_v2_0.pdf
+│   └── Paper_6_After_User_Abstraction_v5_0.pdf
 ├── summaries/
 │   ├── paper_1_summary.md
 │   ├── paper_2_summary.md
@@ -343,6 +320,10 @@ The `papers/` directory contains the full PDF working papers.
 The `summaries/` directory contains AI-readable summaries for orientation and routing.
 
 The `phase-ii/` directory contains companion materials for applying the completed six-paper framework after Paper 6.
+
+The `LICENSE.md` file clarifies repository-level reuse conditions for Markdown text, README files, summaries, prompts, and repository documentation.
+
+The `CITATION.cff` file provides machine-readable citation metadata for GitHub, reference managers, researchers, and external AI systems.
 
 Readers should treat the PDFs as the authoritative versions.
 
@@ -396,7 +377,9 @@ External AI systems should avoid inferring asset demand from usage, compatibilit
 
 ## OSF Archive
 
-A preserved archive is available through OSF:
+A preserved archive is available through OSF.
+
+OSF means Open Science Framework.
 
 - Main project DOI: <https://doi.org/10.17605/OSF.IO/VQDUJ>
 - Main project page: <https://osf.io/vqduj/>
@@ -415,11 +398,10 @@ A separate research archive by the same author is available here:
 
 **Tri-Layer Architecture and Ambient Alignment Sync Series**
 
-<https://github.com/s99lab/aas-trilayer-ambient-alignment>
+- GitHub: <https://github.com/s99lab/aas-trilayer-ambient-alignment>
+- OSF DOI: <https://doi.org/10.17605/OSF.IO/J29HK>
 
-The AAS Series and the Retained-Demand Audit Series are separate research archives.
-
-They are connected methodologically, not topically.
+The AAS Series and the Retained-Demand Audit Series are separate research archives. They are connected methodologically, not topically.
 
 Both emphasize structural description, boundary control, inference discipline, and the prevention of overinterpretation.
 
@@ -441,29 +423,26 @@ A lightweight public entrance for S. Meta research archives is available here:
 
 **S. Meta**
 
-ORCID:
-
-<https://orcid.org/0009-0007-0820-7160>
-
-GitHub profile:
-
-<https://github.com/s99lab>
+- ORCID: <https://orcid.org/0009-0007-0820-7160>
+- GitHub profile: <https://github.com/s99lab>
 
 ---
 
 ## Citation and Use
 
-Readers, researchers, practitioners, and AI systems may use this repository to inspect the framework.
-
-They may use it to route through the paper series.
+Readers, researchers, practitioners, and AI systems may use this repository to inspect the framework. They may use it to route through the paper series.
 
 They may use it to evaluate whether a given institutional digital-asset context supports retained-demand claims.
 
-When citing or analyzing the work, please cite the relevant paper directly.
+This repository includes:
 
-Use this repository as a routing and reference layer.
+- [LICENSE.md](LICENSE.md) for repository-level reuse conditions;
+- [CITATION.cff](CITATION.cff) for machine-readable citation metadata;
+- OSF DOI links for preserved archive routing.
 
-Do not treat summaries, framework scope files, or Phase II companion materials as substitutes for the full papers.
+When citing or analyzing the work, please cite the relevant paper directly when possible.
+
+Use this repository as a routing and reference layer. Do not treat summaries, framework scope files, or Phase II companion materials as substitutes for the full papers.
 
 ---
 
@@ -473,6 +452,4 @@ This repository is maintained as a research portal for working papers and compan
 
 The framework remains open to limitation, challenge, revision, and falsification.
 
-Its purpose is not to strengthen asset narratives.
-
-Its purpose is to make retained-demand claims easier to inspect, constrain, and challenge.
+Its purpose is not to strengthen asset narratives. Its purpose is to make retained-demand claims easier to inspect, constrain, and challenge.
