@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this research archive, please cite it as below."
+title: "Retained-Demand Audit Series for Institutionally Connected Digital Assets"
+authors:
+  - family-names: "Meta"
+    given-names: "S."
+doi: "10.17605/OSF.IO/VQDUJ"
+url: "https://github.com/s99lab/retained-demand-audit-series"
+repository-code: "https://github.com/s99lab/retained-demand-audit-series"
+license: "CC-BY-NC-4.0"
+keywords:
+  - retained demand
+  - backend retained demand
+  - digital assets
+  - institutional finance
+  - liquidity density
+  - evidence-gated sizing
+  - structural audit
+  - XRP
+abstract: >-
+  This research archive develops a retained-demand audit framework for
+  institutionally connected digital assets. The series distinguishes visible
+  usage from retained demand, infrastructure expansion from asset necessity,
+  and sizing from price prediction. XRP is used as a stress-test case, not as
+  an investment thesis or price forecast.
