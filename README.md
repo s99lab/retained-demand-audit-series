@@ -76,7 +76,8 @@ The Phase II materials do not launch a new paper. They clarify how the completed
 Phase II materials:
 
 - [Phase II Materials Index](phase-ii/README.md)
-- [Paper 7 Candidate A Design Log v0.1](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)
+- [Paper 7 Candidate A Design Log v0.1 — PDF](phase-ii/paper-7-candidate-a-design-log-v0.1.pdf)
+- [Paper 7 Candidate A Design Log v0.1 — Markdown](phase-ii/paper-7-candidate-a-design-log-v0.1.md)
 - [Operational Note](phase-ii/operational-note.md)
 - [Paper 7 Candidate Seeds](phase-ii/paper-7-candidate-seeds.md)
 
@@ -312,7 +313,8 @@ retained-demand-audit-series/
     ├── README.md
     ├── operational-note.md
     ├── paper-7-candidate-seeds.md
-    └── paper-7-candidate-a-design-log-v0.1.pdf
+    ├── paper-7-candidate-a-design-log-v0.1.pdf
+    └── paper-7-candidate-a-design-log-v0.1.md
 ```
 
 The `papers/` directory contains the full PDF working papers.
