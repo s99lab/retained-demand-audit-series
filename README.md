@@ -14,6 +14,18 @@ The repository does not replace the papers themselves.
 
 ---
 
+## Why This Series Exists
+
+In complex domains, better judgment depends not only on collecting more information, but on keeping observable facts, uncertainties, provisional inferences, and revision conditions clearly separated — so that the judgment itself remains auditable.
+
+The Retained-Demand Audit Series applies this principle to institutionally connected digital asset infrastructure: systems where digital assets may function as inventory, collateral, margin, liquidity buffers, or fallback liquidity within regulated or institutionally governed workflows.
+
+The central question is not whether an asset is visible, supported, or widely used. It is whether someone in an institutional role must retain it — and what degrades operationally if the asset is removed.
+
+This is a judgment-audit framework. It is not a price thesis, a market forecast, or investment advice.
+
+---
+
 ## Repository Purpose
 
 This repository is not only a PDF archive.
