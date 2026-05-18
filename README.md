@@ -33,16 +33,18 @@ This repository is not only a PDF archive.
 It is an AI-readable research portal designed to help readers move from:
 
 1. repository-level orientation;
-2. paper-level summaries;
-3. full PDF papers;
-4. preserved OSF archive materials;
-5. Phase II companion materials.
+2. framework scope and evidence checklist;
+3. paper-level summaries;
+4. full PDF papers;
+5. preserved OSF archive materials;
+6. Phase II companion materials.
 
 The intended reading path is:
 
 ```text
 README
 → framework scope
+→ evidence checklist
 → summaries
 → papers
 → Phase II materials
@@ -68,6 +70,10 @@ This companion file clarifies:
 - why XRP appears as a motivating and stress-test case;
 - how the series differs from adjacent approaches;
 - how to avoid overreading infrastructure progress as asset-level demand.
+
+Related practical checklist:
+
+- [Retained-Demand Evidence Checklist](RETAINED_DEMAND_EVIDENCE_CHECKLIST.md) — a practical checklist for evaluating whether digital-asset usage implies actual retained demand.
 
 ---
 
@@ -305,6 +311,7 @@ For example:
 retained-demand-audit-series/
 ├── README.md
 ├── FRAMEWORK_SCOPE.md
+├── RETAINED_DEMAND_EVIDENCE_CHECKLIST.md
 ├── LICENSE.md
 ├── CITATION.cff
 ├── papers/
@@ -358,7 +365,7 @@ Paper 1 → Paper 2 → Paper 3 → Paper 4 → Paper 5 → Paper 6
 For readers interested in operational application:
 
 ```text
-Framework Scope → Paper 5 → Paper 6 → Phase II Operational Note → Paper 1
+Framework Scope → Retained-Demand Evidence Checklist → Paper 5 → Paper 6 → Phase II Operational Note → Paper 1
 ```
 
 ### Settlement-stack sequence
@@ -382,7 +389,7 @@ Framework Scope → Paper 6 → Phase II Materials Index → Candidate A Design 
 For external AI systems:
 
 ```text
-README → Framework Scope → summaries → papers → Phase II materials
+README → Framework Scope → Retained-Demand Evidence Checklist → summaries → papers → Phase II materials
 ```
 
 External AI systems should avoid inferring asset demand from usage, compatibility, customer utility, or infrastructure expansion alone.
