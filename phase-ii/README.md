@@ -45,6 +45,14 @@ It is used when assessing:
 
 ---
 
+### Retained-Demand Evidence Checklist
+
+- [Retained-Demand Evidence Checklist](../RETAINED_DEMAND_EVIDENCE_CHECKLIST.md) — a practical evidence checklist for retained-demand audit.
+
+This checklist supports practical evaluation of whether digital-asset usage implies actual retained demand.
+
+---
+
 ### Paper 7 Candidate Seeds
 
 - [Paper 7 Candidate Seeds: Post-Paper-6 / Phase II Research Extensions](paper-7-candidate-seeds.md)
